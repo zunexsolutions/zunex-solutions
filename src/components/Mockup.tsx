@@ -1,0 +1,4 @@
+export default function Mockup({bars,label}:{bars:number[];label:string}){return(<div className="flex aspect-[16/8] w-full flex-col gap-3 border border-white/10 bg-deep p-4" role="img" aria-label={`${label} concept interface preview`}>
+<div className="flex gap-2"><span className="h-2 w-2 rounded-full bg-white/20"/><span className="h-2 w-2 rounded-full bg-white/20"/><span className="h-2 w-2 rounded-full bg-white/20"/></div>
+<div className="grid flex-1 grid-cols-[1fr_3fr] gap-3"><div className="space-y-2">{[60,80,50,70].map((w,i)=><div key={i} className="h-2 bg-white/10" style={{width:`${w}%`}}/>)}</div>
+<div className="flex items-end gap-2 border border-white/10 p-3">{bars.map((b,i)=><div key={i} className={`flex-1 transition-all duration-700 group-hover:opacity-100 ${i===bars.length-1?'bg-cyan':'bg-violet/60'}`} style={{height:`${b}%`}}/>)}</div></div></div>)}
