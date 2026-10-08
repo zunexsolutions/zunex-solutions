@@ -1,0 +1,815 @@
+[
+ {
+  "slug": "ai-agents-for-business-2026",
+  "title": "AI Agents in 2026: What Businesses Are Actually Doing With Them",
+  "description": "AI agents moved from demos to real workflows in 2026. Here is what adoption data shows, where projects stall and how to start small.",
+  "keyword": "AI agents for business",
+  "category": "AI",
+  "date": "2026-10-08",
+  "updated": "2026-10-08",
+  "readMin": 2,
+  "seoTitle": "AI Agents for Business in 2026 | Zunex Solutions",
+  "intro": "Two years ago an AI agent was a conference demo. This year it is a budget line. Gartner expects roughly 40% of enterprise applications to include task-specific agents by the end of 2026, up from under 5% in 2025, and KPMG's Q1 2026 pulse survey found 54% of organisations actively deploying agents in core operations.",
+  "sections": [
+   {
+    "h": "Take the big numbers with some salt",
+    "p": [
+     "Adoption figures come from surveys, and surveys flatter. CrewAI's poll of 500 executives says every respondent plans to expand agent use, which tells you more about who answered than about the market. Still, the direction is hard to argue with. The first wave is IT, customer support and finance, where work is repetitive, rule-heavy and easy to check."
+    ]
+   },
+   {
+    "h": "Why projects stall",
+    "p": [
+     "Mostly integration. One 2026 report has 46% of organisations naming connections to existing systems as their main obstacle. The model is rarely the problem; the CRM with no API is. Permissions come next: an agent that can read invoices should not automatically approve them. Last comes trust. People need to see what the agent did and undo it quickly."
+    ]
+   },
+   {
+    "h": "A sensible way to start",
+    "p": [
+     "Skip the grand rollout."
+    ],
+    "l": [
+     "Pick one workflow with a cost you can measure, such as lead follow-up or ticket triage.",
+     "Keep a human approval step for anything that spends money or contacts a customer.",
+     "Log every action the agent takes.",
+     "Review time saved after a month, then decide whether to expand."
+    ]
+   },
+   {
+    "h": "What this means for your business",
+    "p": [
+     "At Zunex we build these for small and mid-sized teams, usually an assistant or automation wired into tools you already use: a CRM, WhatsApp, a spreadsheet. If you can describe the task in one sentence and measure it every week, it is probably a good first candidate."
+    ]
+   }
+  ],
+  "sources": [
+   [
+    "Ampcome: Enterprise AI Agents 2026 mid-year report",
+    "https://www.ampcome.com/post/enterprise-ai-agents-2026-mid-year-report"
+   ],
+   [
+    "Prefactor: AI agent adoption statistics 2026",
+    "https://prefactor.tech/learn/ai-agent-adoption-statistics"
+   ],
+   [
+    "CrewAI 2026 State of Agentic AI survey",
+    "https://research.agilebrandguide.com/research/agentic-ai-in-2026-from-experimentation-to-enterprise-imperative"
+   ]
+  ]
+ },
+ {
+  "slug": "cloud-market-q2-2026-ai-growth",
+  "title": "Cloud Spending Passed USD 143 Billion in Q2 2026: What Is Driving It",
+  "description": "Cloud infrastructure spending hit USD 143 billion in Q2 2026, the fastest growth in eight years. What AWS, Azure and Google Cloud shares mean for you.",
+  "keyword": "cloud market 2026",
+  "category": "Cloud",
+  "date": "2026-10-08",
+  "updated": "2026-10-08",
+  "readMin": 2,
+  "seoTitle": "Cloud Market Q2 2026: USD 143B | Zunex Solutions",
+  "intro": "Synergy Research Group says enterprise spending on cloud infrastructure services reached USD 143 billion in the second quarter of 2026, up more than USD 43 billion from a year earlier. Growth was the highest in eight years, and the market has roughly doubled over the last 11 quarters.",
+  "sections": [
+   {
+    "h": "Who has what",
+    "p": [
+     "Amazon leads with 28% of the market, Microsoft has 20% and Google 15%. Microsoft and Google are growing faster than Amazon. Synergy also tracks a second tier of newer providers, including CoreWeave, Oracle and Nebius, that are growing quickly. The analyst's own explanation is that generative AI lit a fire under the market: AI-specific cloud services are growing at around 165% a year."
+    ]
+   },
+   {
+    "h": "Why it is not your buying guide",
+    "p": [
+     "Market share tells you who is big, not who is right for you. For a small business, the questions are different. How predictable is the bill? Does your team know the platform? Do you actually need a hyperscaler, or would a simple managed host and a database do the job?"
+    ]
+   },
+   {
+    "h": "Keeping costs sane",
+    "p": [],
+    "l": [
+     "Start small and add services only when you need them.",
+     "Set budget alerts on day one.",
+     "Turn off what you are not using, especially test environments.",
+     "Review your bill monthly. Surprises are cheaper to fix early."
+    ]
+   },
+   {
+    "h": "What this means for your business",
+    "p": [
+     "Most of the sites and apps we build run happily on modest infrastructure. We will tell you honestly when a project needs more, and when it does not."
+    ]
+   }
+  ],
+  "sources": [
+   [
+    "Synergy Research Group: Q2 cloud market passes USD 143 billion",
+    "https://www.srgresearch.com/articles/q2-cloud-market-passes-143-billion-highest-growth-rate-in-eight-years"
+   ],
+   [
+    "Data Center Dynamics: enterprise cloud infrastructure spending hits USD 143 billion",
+    "https://www.datacenterdynamics.com/en/news/enterprise-cloud-infrastructure-spending-hits-143-billion-report/"
+   ]
+  ]
+ },
+ {
+  "slug": "core-web-vitals-2026-lcp-inp-cls",
+  "title": "Core Web Vitals in 2026: What to Fix First (INP, LCP, CLS)",
+  "description": "Core Web Vitals in 2026: the three metrics, current thresholds, how much they affect rankings and the fixes that make the biggest difference.",
+  "keyword": "Core Web Vitals 2026",
+  "category": "SEO",
+  "date": "2026-10-08",
+  "updated": "2026-10-08",
+  "readMin": 2,
+  "seoTitle": "Core Web Vitals 2026: What to Fix | Zunex Solutions",
+  "intro": "Plenty of blogs claim Google tightened Core Web Vitals this year. Sources that track it closely say otherwise: the three metrics and their thresholds are the same as they have been since INP replaced First Input Delay on March 12, 2024.",
+  "sections": [
+   {
+    "h": "The three metrics",
+    "p": [
+     "Google measures them at the 75th percentile of real Chrome users. A good score means:"
+    ],
+    "l": [
+     "LCP (Largest Contentful Paint): 2.5 seconds or less.",
+     "INP (Interaction to Next Paint): 200 milliseconds or less.",
+     "CLS (Cumulative Layout Shift): 0.1 or less."
+    ]
+   },
+   {
+    "h": "How much they matter",
+    "p": [
+     "Google's documentation treats page experience as a broad picture, and Googlers have described Core Web Vitals as a small factor in most cases. Think tie-breaker, not magic switch. Still, speed shows up in bounce rate and enquiries long before it shows up in rankings. The 2025 Web Almanac found 48% of mobile and 56% of desktop sites had good scores, so there is room to stand out."
+    ]
+   },
+   {
+    "h": "What to fix first",
+    "p": [
+     "In our experience, in this order."
+    ],
+    "l": [
+     "INP: reduce JavaScript on the main thread. Split big bundles, delay non-essential scripts, break up long tasks.",
+     "LCP: compress and properly size the hero image, preload it, and use a fast host.",
+     "CLS: set width and height on images and reserve space for fonts and ads."
+    ]
+   },
+   {
+    "h": "What this means for your business",
+    "p": [
+     "We build with these numbers in mind: lazy-loaded heavy features, optimised images and no layout jumps. You can test your own site free with PageSpeed Insights, and the Core Web Vitals report in Search Console shows real-user data."
+    ]
+   }
+  ],
+  "sources": [
+   [
+    "PPC Land: Core Web Vitals (September 2026)",
+    "https://ppc.land/core-web-vitals/"
+   ],
+   [
+    "Meta Digital: Core Web Vitals in 2026",
+    "https://www.metadigital.co.nz/core-web-vitals-in-2026-what-they-measure-and-whats-actually-worth-fixing/"
+   ]
+  ]
+ },
+ {
+  "slug": "eu-ai-act-digital-omnibus-deadlines",
+  "title": "EU AI Act: The High-Risk Deadline Moved, Here Is What Did Not",
+  "description": "The EU's Digital Omnibus delayed high-risk AI deadlines to 2027 and 2028. Other AI Act duties still apply. A plain summary for businesses.",
+  "keyword": "EU AI Act deadlines",
+  "category": "Regulation",
+  "date": "2026-10-08",
+  "updated": "2026-10-08",
+  "readMin": 2,
+  "seoTitle": "EU AI Act Deadlines After the Omnibus | Zunex Solutions",
+  "intro": "For a while, August 2, 2026 was the date everyone circled for the EU AI Act. Then the Digital Omnibus on AI arrived. The Council gave final approval on June 29, 2026, and the amending regulation was published on July 24 and took effect on July 27, days before the original deadline.",
+  "sections": [
+   {
+    "h": "The new dates",
+    "p": [
+     "Stand-alone high-risk systems (the Annex III list, which covers areas like hiring and credit scoring) now have until December 2, 2027. AI built into regulated products such as medical devices and machinery gets until August 2, 2028. Law firms covering the change are clear that the requirements themselves did not shrink; only the calendar did."
+    ]
+   },
+   {
+    "h": "What did not move",
+    "p": [
+     "Rules already in force stay in force: the bans on prohibited practices and the AI literacy duties from February 2025, and the obligations for general-purpose AI model providers from August 2025. Article 50 transparency duties, such as telling people when they are talking to an AI system, are described as largely unaffected. Fines for high-risk breaches can still reach EUR 15 million or 3% of worldwide turnover once they apply."
+    ]
+   },
+   {
+    "h": "Do you need to care?",
+    "p": [
+     "If you sell to customers in the EU or build features that affect them, yes, at least to the extent of knowing which bucket you are in."
+    ],
+    "l": [
+     "List every AI feature you ship or use.",
+     "Check whether any falls under a high-risk category.",
+     "Make sure chatbots and generated content are clearly labelled.",
+     "Keep notes on how your system works. You will want them later."
+    ]
+   },
+   {
+    "h": "What this means for your business",
+    "p": [
+     "We are not lawyers and this is not legal advice. What we can do is build AI features with logging, human oversight and clear labelling from the start, which makes any later compliance work much cheaper."
+    ]
+   }
+  ],
+  "sources": [
+   [
+    "Cloud Security Alliance: Omnibus deadline research note",
+    "https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-high-risk-deadline-omnibus-20260/"
+   ],
+   [
+    "Secure Privacy: new high-risk deadlines after Council approval",
+    "https://secureprivacy.ai/blog/eu-ai-act-digital-omnibus-the-new-high-risk-ai-deadlines-after-council-approval"
+   ],
+   [
+    "Gibson Dunn: Omnibus agreement",
+    "https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/"
+   ]
+  ]
+ },
+ {
+  "slug": "google-ai-mode-seo-2026",
+  "title": "Google AI Mode and SEO in 2026: What Still Works",
+  "description": "Google's May 2026 core update and AI Mode changed how people search. Here is what Google says about SEO now and what to do about it.",
+  "keyword": "SEO in 2026",
+  "category": "SEO",
+  "date": "2026-10-08",
+  "updated": "2026-10-08",
+  "readMin": 2,
+  "seoTitle": "SEO in 2026: Google AI Mode Explained | Zunex Solutions",
+  "intro": "Google had a busy May. It rolled out its second core update of 2026 on May 21, redesigned the search box around AI at I/O, and made Gemini 3.5 Flash the default model in AI Mode. Reports at the time said AI Mode had reached around 1 billion monthly users after its first year.",
+  "sections": [
+   {
+    "h": "What Google actually says",
+    "p": [
+     "Google's own guidance on generative search features is refreshingly dull: optimising for AI Overviews and AI Mode is still SEO. Those features draw on the same index and ranking systems, so crawlable, helpful pages are the entry ticket. There is no secret submission form for AI results."
+    ]
+   },
+   {
+    "h": "What changed for searchers",
+    "p": [
+     "AI Mode queries are about three times longer than classic searches, and a growing share use voice, images or video. People ask full questions now. A page built around one short keyword can miss that, while a page that answers the follow-up questions has a better chance."
+    ]
+   },
+   {
+    "h": "What we would do",
+    "p": [],
+    "l": [
+     "Write for questions, not just keywords. Answer the next question before the reader asks it.",
+     "Show real expertise: who wrote it, what they know, where the facts came from.",
+     "Fix the basics: crawlable pages, fast loading, clean titles and descriptions.",
+     "Add structured data where it fits, such as FAQ and organisation markup.",
+     "Do not over-optimise for AI citations. Some analysts suspect the May update targeted exactly that."
+    ]
+   },
+   {
+    "h": "What this means for your business",
+    "p": [
+     "Rankings will keep wobbling around updates, so judge SEO over months, not days. We build sites with the technical side done properly from day one, then help with content that answers what your customers actually ask."
+    ]
+   }
+  ],
+  "sources": [
+   [
+    "Search Engine Journal: May 2026 core update and I/O overhaul",
+    "https://www.searchenginejournal.com/seo-pulse-google-launches-core-update-amid-i-o-ai-search-overhaul/"
+   ],
+   [
+    "Let's Data Science: Google defines AI search optimization as SEO",
+    "https://letsdatascience.com/news/google-defines-ai-search-optimization-as-seo-8cf32e65"
+   ],
+   [
+    "Anicca: AI Mode usage and core update summary",
+    "https://anicca.co.uk/?p=55999"
+   ]
+  ]
+ },
+ {
+  "slug": "model-context-protocol-mcp-2026-spec",
+  "title": "MCP in 2026: What the Biggest Spec Update Means for AI Builders",
+  "description": "The Model Context Protocol's 2026-07-28 update made MCP stateless and enterprise-ready. What changed and how it affects AI integrations.",
+  "keyword": "Model Context Protocol",
+  "category": "AI",
+  "date": "2026-10-08",
+  "updated": "2026-10-08",
+  "readMin": 2,
+  "seoTitle": "MCP 2026 Spec Update Explained | Zunex Solutions",
+  "intro": "The Model Context Protocol, or MCP, started in November 2024 as a way for AI apps to talk to tools and data through one common interface. In July 2026 it got its largest revision yet. The 2026-07-28 specification replaced the 2025-11-25 version and, according to its maintainers, includes changes that are not backward compatible.",
+  "sections": [
+   {
+    "h": "What changed",
+    "p": [
+     "The big shift is that MCP servers no longer need to hold session state. That lets them sit behind ordinary load balancers on tools teams already run, the way a normal web service does. Other additions include header-based routing, cacheable lists, a server discovery call, tighter OAuth handling, and a formal deprecation policy so features are not removed without warning. Long-running Tasks moved out of the core into an extension."
+    ]
+   },
+   {
+    "h": "Why people are paying attention",
+    "p": [
+     "MCP now lives under the Agentic AI Foundation at the Linux Foundation, a vendor-neutral home, since December 2025. Reported figures put SDK downloads near 97 million a month by March 2026 and the official registry at 9,652 entries by May. A vendor survey found 41% of software teams using MCP in production. A certification programme launched in September."
+    ]
+   },
+   {
+    "h": "What it means in practice",
+    "p": [
+     "If your product connects an AI assistant to a database, CRM or internal system, MCP is likely to be the plug. Build servers with narrow permissions, log every call and plan for spec upgrades. Features marked deprecated stay working for at least 12 months."
+    ]
+   },
+   {
+    "h": "What this means for your business",
+    "p": [
+     "We use MCP-style connections when building AI assistants for clients, for example letting an assistant read orders from a store or answer from a knowledge base. The new stateless design makes these easier to host and cheaper to run."
+    ]
+   }
+  ],
+  "sources": [
+   [
+    "The Register: MCP gets an enterprise makeover",
+    "https://www.theregister.com/a/5280027"
+   ],
+   [
+    "Scalar: What is MCP (updated September 2026)",
+    "https://scalar.com/learn/mcp/what-is-mcp"
+   ],
+   [
+    "Forkast: Model Context Protocol glossary",
+    "https://forkast.news/glossary/model-context-protocol/"
+   ]
+  ]
+ },
+ {
+  "slug": "nextjs-16-3-security-updates",
+  "title": "Next.js 16.3 and Why Patching Matters More Than New Features",
+  "description": "Next.js 16.3 added AI-focused tooling, while a steady run of security releases means upgrading is now part of the job. What to know.",
+  "keyword": "Next.js 16 security updates",
+  "category": "Web Development",
+  "date": "2026-10-08",
+  "updated": "2026-10-08",
+  "readMin": 2,
+  "seoTitle": "Next.js 16.3 and Security Updates | Zunex Solutions",
+  "intro": "If you run a Next.js site, the news worth your attention this year is less about features and more about patches. Next.js 16 shipped in October 2025, 16.2 followed in March 2026, and 16.3 arrived in the summer. In between, the team moved to a formal, scheduled process for security releases.",
+  "sections": [
+   {
+    "h": "What 16.3 adds",
+    "p": [
+     "The release is described as an AI-focused one. It includes tooling aimed at coding agents and a new instant() test helper. The 16.x line also keeps leaning on Turbopack and the caching model introduced in version 16, so most teams on 15.x can expect a straightforward upgrade path rather than a rewrite."
+    ]
+   },
+   {
+    "h": "The security pattern",
+    "p": [
+     "Version 16.2.6 in May 2026 fixed 13 advisories in one go. July brought another security release, and the team announced scheduled security updates, with one planned for August 26 covering 16.3 and 15.5. Scheduling helps. You can plan a patch window instead of reacting to a surprise at midnight."
+    ]
+   },
+   {
+    "h": "A practical routine",
+    "p": [],
+    "l": [
+     "Pin your Next.js version and read the release notes before bumping it.",
+     "Subscribe to the official blog or GitHub releases for security notices.",
+     "Test upgrades on a preview deployment, never straight on production.",
+     "Keep Node.js on a supported LTS version."
+    ]
+   },
+   {
+    "h": "What this means for your business",
+    "p": [
+     "A website is not finished the day it launches. Whoever built yours should also be patching it. We include dependency updates in our maintenance work for exactly this reason, and we would rather tell you a patch is due than have you find out from a scanner."
+    ]
+   }
+  ],
+  "sources": [
+   [
+    "Next.js blog (releases and security notices)",
+    "https://nextjs.org/blog"
+   ],
+   [
+    "Makerkit: Next.js 16, what's new",
+    "https://makerkit.dev/blog/md/tutorials/nextjs-16"
+   ]
+  ]
+ },
+ {
+  "slug": "nodejs-26-lts-upgrade-guide",
+  "title": "Node.js 26 Goes LTS This Month: Should You Upgrade?",
+  "description": "Node.js 26 reaches LTS in October 2026 with the Temporal API on by default. What is new, what breaks and when to move production.",
+  "keyword": "Node.js 26",
+  "category": "Web Development",
+  "date": "2026-10-08",
+  "updated": "2026-10-08",
+  "readMin": 2,
+  "seoTitle": "Node.js 26 LTS Upgrade Guide | Zunex Solutions",
+  "intro": "Node.js 26 was released on May 5, 2026 as a Current version, and the project's schedule puts its move to long-term support in October 2026. One report gives October 28 for that date. That makes now the time to plan, not to rush.",
+  "sections": [
+   {
+    "h": "What is new",
+    "p": [
+     "Node.js 26 ships V8 14.6, and the Temporal API, the long-awaited fix for JavaScript's awkward Date object, is enabled by default. The built-in HTTP client undici moves to the 8.x series. There are also removals: some legacy internal modules are gone and the --experimental-transform-types flag was dropped, so a package that touches those directly will break."
+    ]
+   },
+   {
+    "h": "Where the other versions stand",
+    "p": [
+     "Node.js 24 is the current Active LTS release and Node.js 22 is in maintenance. Even-numbered releases get about three years of support, with Node.js 26 listed through April 2029."
+    ]
+   },
+   {
+    "h": "When to upgrade",
+    "p": [],
+    "l": [
+     "Wait until 26 is officially LTS, then target the first patch releases.",
+     "Run your tests on 26 in CI now to find broken dependencies early.",
+     "Check your hosting provider supports it before you change anything.",
+     "Search your code for old Date-handling workarounds that Temporal can replace."
+    ]
+   },
+   {
+    "h": "What this means for your business",
+    "p": [
+     "For clients on managed hosting we handle runtime upgrades as part of maintenance, and we schedule them outside your busy periods. If your site runs on Node 18 or earlier, tell us. Those versions are past end of life."
+    ]
+   }
+  ],
+  "sources": [
+   [
+    "InMotion Hosting: Node.js 26 released",
+    "https://www.inmotionhosting.com/support/news/nodejs-v26-released/"
+   ],
+   [
+    "Linuxadictos: Node.js 26 arrives with Temporal API",
+    "https://en.linuxadictos.com/Node.js-26-arrives-with-a-temporary-API-and-key-platform-improvements.html"
+   ]
+  ]
+ },
+ {
+  "slug": "npm-supply-chain-attacks-2026",
+  "title": "npm Supply Chain Attacks in 2026: How to Protect Your Project",
+  "description": "npm supply chain attacks keep escalating in 2026. Learn what happened, why worms target tokens and the habits that cut your risk.",
+  "keyword": "npm supply chain security",
+  "category": "Security",
+  "date": "2026-10-08",
+  "updated": "2026-10-08",
+  "readMin": 2,
+  "seoTitle": "npm Supply Chain Security in 2026 | Zunex Solutions",
+  "intro": "The Shai-Hulud worm in September 2025 was the moment npm attacks stopped being a nuisance. Researchers at Palo Alto Networks' Unit 42 say 2026 has continued the pattern, with campaigns in March (the Axios compromise), through spring, and on June 1, when at least 32 packages under the @redhat-cloud-services namespace were hit.",
+  "sections": [
+   {
+    "h": "How the attacks work now",
+    "p": [
+     "Modern payloads go after npm tokens and GitHub personal access tokens. With those, malware can publish infected versions of packages the victim legitimately maintains, and the cycle repeats. That is why one phished maintainer can affect thousands of downstream projects. IBM figures cited in one 2026 playbook put the average supply chain compromise at USD 4.91 million and 267 days to contain."
+    ]
+   },
+   {
+    "h": "Habits that help",
+    "p": [],
+    "l": [
+     "Commit your lockfile and use npm ci in builds, so you install exactly what you tested.",
+     "Avoid installing a brand-new release the same day it appears. Waiting a few days catches many bad versions.",
+     "Use two-factor authentication everywhere, and prefer phishing-resistant methods like passkeys.",
+     "Give tokens the smallest scope and shortest lifetime that works.",
+     "Run npm audit, but do not treat a clean report as proof of safety.",
+     "Remove dependencies you no longer need."
+    ]
+   },
+   {
+    "h": "Do not forget your build pipeline",
+    "p": [
+     "Your CI system often holds the keys to production. Limit which secrets each job can see, and review third-party actions before trusting them."
+    ]
+   },
+   {
+    "h": "What this means for your business",
+    "p": [
+     "Every site has dependencies, ours included. We pin versions, review updates and keep secrets out of the front end. If you are unsure what your current website pulls in, ask your developer for a dependency report. It is a reasonable request."
+    ]
+   }
+  ],
+  "sources": [
+   [
+    "Unit 42: The npm threat landscape (updated July 2026)",
+    "https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/"
+   ],
+   [
+    "DEV Community: Software supply chain security in 2026",
+    "https://dev.to/mr_manushukla/software-supply-chain-security-in-2026-an-enterprise-playbook-after-the-npm-attack-wave-4i5c"
+   ]
+  ]
+ },
+ {
+  "slug": "pakistan-it-exports-fy26-record",
+  "title": "Pakistan's IT Exports Hit a Record USD 4.6 Billion in FY26",
+  "description": "Pakistan's IT exports reached a record USD 4.6 billion in FY2026, with freelancers passing USD 1 billion. What the numbers mean for businesses.",
+  "keyword": "Pakistan IT exports",
+  "category": "Business",
+  "date": "2026-10-08",
+  "updated": "2026-10-08",
+  "readMin": 2,
+  "seoTitle": "Pakistan IT Exports Hit USD 4.6B in FY26 | Zunex Solutions",
+  "intro": "Pakistan's technology sector just posted its best year. According to State Bank of Pakistan data, IT exports reached a record USD 4.6 billion in fiscal year 2026, up about 20.7% from USD 3.81 billion a year earlier. June 2026 alone brought in USD 416 million.",
+  "sections": [
+   {
+    "h": "The details",
+    "p": [
+     "That put IT at roughly 11.7% of the country's total exports in June. Freelancers had a standout year too: reporting based on official figures says freelance earnings crossed USD 1 billion for the first time. The government's FY26 target was USD 4.5 to 5 billion, so the result landed at the lower end of that range. Sources differ slightly on the headline (some outlets say USD 4.5 billion), which is normal while revisions come in."
+    ]
+   },
+   {
+    "h": "The wider picture",
+    "p": [
+     "The Economic Survey counted 34,420 IT and IT-enabled companies registered with the SECP by March 2026. Officials now aim for USD 10 billion in annual IT exports by FY29. Analysts point out this needs close to 30% growth every year, which is ambitious."
+    ]
+   },
+   {
+    "h": "Why it matters if you are hiring",
+    "p": [
+     "Pakistan has a deep pool of developers, designers and marketers who work with international clients daily. That is good news for buyers abroad, and for local companies it means more competition and higher expectations. Good communication, clear scoping and reliable delivery are what separate agencies now, not just price."
+    ]
+   },
+   {
+    "h": "What this means for your business",
+    "p": [
+     "We are a small team in Sahiwal, and we are proud to be part of this. We work remotely, quote clearly and show our process, which is exactly what clients tell us they want from a remote partner."
+    ]
+   }
+  ],
+  "sources": [
+   [
+    "Bol News: IT exports hit record USD 4.6 billion",
+    "https://www.bolnews.com/business/pakistans-it-exports-hit-record-4-6-billion-in-fy2026/"
+   ],
+   [
+    "Zameen News (Topline Securities data)",
+    "https://www.zameen.com/news/pakistan-records-all-time-high-it-exports.html"
+   ],
+   [
+    "APP: ICT exports July-March FY2026",
+    "https://www.app.com.pk/business/pakistans-ict-exports-rise-19-7-per-cent-to-record-3-38bn/"
+   ],
+   [
+    "Outsource Accelerator: Pakistan IT exports record",
+    "https://news.outsourceaccelerator.com/pakistan-it-exports-record/"
+   ]
+  ]
+ },
+ {
+  "slug": "post-quantum-cryptography-migration-2026",
+  "title": "Post-Quantum Cryptography in 2026: A Plain-English Migration Guide",
+  "description": "Post-quantum cryptography is moving from research to rules in 2026. Learn the deadlines, the harvest-now risk and the first step to take.",
+  "keyword": "post-quantum cryptography",
+  "category": "Security",
+  "date": "2026-10-08",
+  "updated": "2026-10-08",
+  "readMin": 2,
+  "seoTitle": "Post-Quantum Cryptography Guide 2026 | Zunex Solutions",
+  "intro": "Quantum computers that can break today's encryption do not exist yet. The reason security teams are busy anyway is simple: data stolen now can be decrypted later. That 'harvest now, decrypt later' risk is why NSA, CISA and NIST have urged organisations to start moving.",
+  "sections": [
+   {
+    "h": "The standards and dates",
+    "p": [
+     "NIST published its first three post-quantum standards in August 2024 (FIPS 203, 204 and 205). Its transition plan deprecates RSA and elliptic curve algorithms by 2030 and disallows them by 2035. In 2026 the pressure rose: analysis from the Cloud Security Alliance describes US federal agencies owing migration plans around late October 2026, and the EU asks member states to begin transitioning by the end of 2026."
+    ]
+   },
+   {
+    "h": "Who is already moving",
+    "p": [
+     "Google announced a 2029 deadline for its own migration, Cloudflare matched it, and Microsoft targets 2033. A 2026 measurement of 32,011 domains found about 49% already support hybrid post-quantum key exchange, but roughly none use post-quantum certificates yet. Encryption is further along than authentication."
+    ]
+   },
+   {
+    "h": "Where a small business starts",
+    "p": [
+     "You do not need a lab. You need a list."
+    ],
+    "l": [
+     "Inventory where you use public-key cryptography: websites, VPNs, email, apps, vendors.",
+     "Keep your TLS stack, libraries and operating systems up to date. Many already negotiate hybrid post-quantum key exchange by default.",
+     "Ask key vendors for their post-quantum plans.",
+     "Shorten the life of long-term secrets where you can."
+    ]
+   },
+   {
+    "h": "What this means for your business",
+    "p": [
+     "For most small companies the practical answer is boring: use modern, maintained platforms and let them do the heavy lifting. When we choose hosting and libraries for a project, crypto support is one of the things we check."
+    ]
+   }
+  ],
+  "sources": [
+   [
+    "Encryption Consulting: post-quantum deadline is shrinking",
+    "https://www.encryptionconsulting.com/post-quantum-deadline-is-shrinking/"
+   ],
+   [
+    "Cloud Security Alliance: PQC from guidance to mandate",
+    "https://labs.cloudsecurityalliance.org/research/csa-research-note-pqc-compliance-mandate-convergence-2026071/"
+   ],
+   [
+    "The Quantum Insider: PQC migration timelines",
+    "https://thequantuminsider.com/?p=2391330"
+   ]
+  ]
+ },
+ {
+  "slug": "shopify-agentic-commerce-2026",
+  "title": "Shopify's Agentic Commerce Push: Should Your Store Sell Through AI Assistants?",
+  "description": "Shopify's June 2026 Editions put agentic commerce at the centre. What it is, what is real so far and how to prepare your store.",
+  "keyword": "Shopify agentic commerce",
+  "category": "E-commerce",
+  "date": "2026-10-08",
+  "updated": "2026-10-08",
+  "readMin": 2,
+  "seoTitle": "Shopify Agentic Commerce in 2026 | Zunex Solutions",
+  "intro": "Shopify's mid-2026 Editions release on June 17 shipped more than 150 updates, and nearly all of them circle one idea: your store should be able to sell inside AI assistants like ChatGPT, Copilot and Google's AI Mode, not only on your own website.",
+  "sections": [
+   {
+    "h": "What shipped",
+    "p": [
+     "The centre piece is the Universal Commerce Protocol, an open standard built with Google that covers discovery through checkout. Alongside it came Shopify Catalog, public MCP servers and an Agentic Storefronts section in the admin where you can see which AI channels show your products. There is also an Agentic plan for merchants who are not on Shopify. Separately, legacy Shopify Scripts stopped running on June 30, 2026, so check any old checkout customisations."
+    ]
+   },
+   {
+    "h": "What is real, what is early",
+    "p": [
+     "Discovery is real: shoppers do find and compare products inside assistants. Fully autonomous checkout is shakier. Forrester analysts note the checkout step is hard to replicate in that channel, and OpenAI pulled its Instant Checkout in March 2026. Availability also varies by country, and some regions are still early access."
+    ]
+   },
+   {
+    "h": "How to prepare",
+    "p": [],
+    "l": [
+     "Clean up product data: clear titles, accurate attributes, good images, correct stock.",
+     "Check the new Agentic admin section and confirm your settings.",
+     "Search for your own products in an AI assistant and see what appears.",
+     "Keep your own storefront fast. Customers still land there."
+    ]
+   },
+   {
+    "h": "What this means for your business",
+    "p": [
+     "Product data quality is the new SEO. We build and tidy Shopify stores with this in mind, and we can audit how your catalogue looks to AI shopping tools before you spend anything on ads."
+    ]
+   }
+  ],
+  "sources": [
+   [
+    "Shopappy: Shopify Editions Summer 26",
+    "https://shopappy.com/ecommerce/shopify-editions-summer-26-what-shopify-actually-announced"
+   ],
+   [
+    "Fudge: Shopify Spring '26 Edition explained",
+    "https://www.fudge.ai/blog/shopify-spring-2026-edition/"
+   ]
+  ]
+ },
+ {
+  "slug": "stack-overflow-survey-2026-ai-coding-tools",
+  "title": "Stack Overflow's 2026 Survey: Developers Use AI Daily, but Verify Everything",
+  "description": "Stack Overflow's 2026 survey shows daily AI coding use but cautious trust. What it means for software quality and your next project.",
+  "keyword": "AI coding tools",
+  "category": "AI",
+  "date": "2026-10-08",
+  "updated": "2026-10-08",
+  "readMin": 2,
+  "seoTitle": "Stack Overflow 2026 Survey: AI Coding | Zunex Solutions",
+  "intro": "Stack Overflow published its 2026 developer survey this week, and the AI results sum up the moment well: people use these tools constantly, and they do not take the output on faith.",
+  "sections": [
+   {
+    "h": "The numbers",
+    "p": [
+     "Among respondents who use coding assistants and agents, 73% use them daily. On trust, 48% said they trust AI output when they can easily verify it, while only 6.6% trust it for many tasks including important work decisions. VS Code remains the most used editor by a wide margin. In the assistants category, Claude Code was reported ahead of GitHub Copilot, with Copilot second, used by 58.7% of respondents to that question."
+    ]
+   },
+   {
+    "h": "What the pattern says",
+    "p": [
+     "The tools have become part of the workflow, like autocomplete, but nobody is handing over the keys. The sensible reading is that AI speeds up drafting while review, testing and design decisions stay human. Teams that skip review tend to meet the bill later as bugs and security holes."
+    ]
+   },
+   {
+    "h": "How we use these tools",
+    "p": [],
+    "l": [
+     "Assistants help with boilerplate, tests and first drafts.",
+     "Every change goes through human review and automated checks.",
+     "Security-sensitive code, such as auth and payments, gets extra scrutiny.",
+     "We tell clients plainly where AI helped."
+    ]
+   },
+   {
+    "h": "What this means for your business",
+    "p": [
+     "Ask any agency how they use AI and how they check it. A good answer includes review and testing, not just speed. We think the right balance is faster delivery with the same standards, and we are happy to show you how that works in practice."
+    ]
+   }
+  ],
+  "sources": [
+   [
+    "Visual Studio Magazine: Stack Overflow 2026 survey",
+    "https://visualstudiomagazine.com/articles/2026/10/06/stack-overflow-2026-survey-vs-code-leads-visual-studio-takes-third.aspx"
+   ]
+  ]
+ },
+ {
+  "slug": "supabase-backend-for-startups-2026",
+  "title": "Supabase in 2026: A Practical Backend for Small Teams (and the Security Catch)",
+  "description": "Supabase keeps adding features in 2026. Here is what is new, why row level security matters most and when it fits your product.",
+  "keyword": "Supabase backend",
+  "category": "Web Development",
+  "date": "2026-10-08",
+  "updated": "2026-10-08",
+  "readMin": 2,
+  "seoTitle": "Supabase Backend Guide 2026 | Zunex Solutions",
+  "intro": "Supabase has become a default backend for small teams: a Postgres database with auth, storage, realtime and edge functions in one place. We use it ourselves for this website's contact form. Recent updates are worth knowing about, and so is the one habit that keeps it safe.",
+  "sections": [
+   {
+    "h": "What is new",
+    "p": [
+     "August 2026 updates included Supabase Pipelines (change data capture, in public alpha and beta stages), a Unified Logs view across services, and an open-source benchmark called Supabase Evals that tests how well AI coding agents handle real Supabase tasks. Earlier in the year Supabase became an official Claude connector, and pg_graphql was switched off by default on new projects."
+    ]
+   },
+   {
+    "h": "The security catch",
+    "p": [
+     "Supabase exposes your database through an API, so access rules live in Postgres as row level security (RLS) policies. A table without RLS is open to anyone holding your public key. That is not a bug; it is the design. It means turning RLS on, and writing policies, is day-one work, not a polish step. Community write-ups also show that badly written policies can slow large tables dramatically, so test them with real data volumes."
+    ]
+   },
+   {
+    "h": "Is it right for you?",
+    "p": [],
+    "l": [
+     "Good fit: MVPs, internal tools, SaaS with accounts and subscriptions, realtime dashboards.",
+     "Think twice: heavy custom backend logic, strict data residency needs, or a team with no one who knows SQL."
+    ]
+   },
+   {
+    "h": "What this means for your business",
+    "p": [
+     "We set up Supabase with tables locked down by default, policies tested, and the service role key kept out of the browser. If a developer ever tells you security can wait until after launch, find another developer."
+    ]
+   }
+  ],
+  "sources": [
+   [
+    "Supabase developer update, August 2026",
+    "https://releases.sh/release/rel_3gHlSj0ILqWNrsxjDdtLA-supabase-ships-pipelines-cdc-chatgpt-sign-in-unified-logs-deprecates-extension"
+   ],
+   [
+    "Supabase developer update, February 2026",
+    "https://releases.sh/release/rel_305PQm4B-oGslGBs56VHj"
+   ]
+  ]
+ },
+ {
+  "slug": "typescript-7-native-compiler",
+  "title": "TypeScript 7 Is Here: A Go Compiler That Is Up to 12x Faster",
+  "description": "TypeScript 7.0 ships a native Go compiler with 8x to 12x faster builds. What changes, what breaks and how to upgrade safely.",
+  "keyword": "TypeScript 7",
+  "category": "Web Development",
+  "date": "2026-10-08",
+  "updated": "2026-10-08",
+  "readMin": 2,
+  "seoTitle": "TypeScript 7: Go Compiler, 12x Faster | Zunex Solutions",
+  "intro": "Microsoft released TypeScript 7.0 this summer, and the headline is speed. The compiler has been ported to Go and typically cuts full build times by 8x to 12x. On the VS Code codebase, Microsoft reported a drop from 125.7 seconds with TypeScript 6.0 to 10.6 seconds.",
+  "sections": [
+   {
+    "h": "What stays the same",
+    "p": [
+     "The language does not change. The team calls the port faithful, designed to behave like the old compiler, only faster and with better use of multiple CPU cores. You install it the usual way with npm install -D typescript, and the new tsc replaces the old one."
+    ]
+   },
+   {
+    "h": "What to watch",
+    "p": [
+     "TypeScript 7.0 ships without a stable programmatic API. That arrives in 7.1, so tools that depend on it, including typescript-eslint and the editor tooling for Vue, Svelte, Astro, MDX and Angular templates, stay on TypeScript 6 for now. The release also turns old deprecations into hard errors and makes strict and esnext the defaults."
+    ]
+   },
+   {
+    "h": "A safe upgrade path",
+    "p": [],
+    "l": [
+     "Move to TypeScript 6.0 first and clear the deprecation warnings.",
+     "Try 7.0 on a branch and run your full build and test suite.",
+     "Keep your existing version for editor tooling if a plugin needs the old API.",
+     "Re-check once 7.1 lands."
+    ]
+   },
+   {
+    "h": "What this means for your business",
+    "p": [
+     "Faster builds mean faster feedback while we develop, which in practice means more of your budget goes into features rather than waiting. We will adopt it project by project once the surrounding tools catch up."
+    ]
+   }
+  ],
+  "sources": [
+   [
+    "InfoQ: Microsoft releases TypeScript 7.0",
+    "https://infoq.com/news/2026/08/typescript-7-released/"
+   ],
+   [
+    "ADT Magazine: Microsoft bets TypeScript's future on a native compiler",
+    "https://adtmag.com/articles/2026/07/10/microsoft-bets-typescript-future-on-a-native-compiler.aspx"
+   ],
+   [
+    "Linuxiac: TypeScript 7.0 rewrites the compiler in Go",
+    "https://linuxiac.com/typescript-7-0-rewrites-the-compiler-in-go-for-up-to-12x-faster-builds/"
+   ]
+  ]
+ }
+]

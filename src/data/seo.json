@@ -1,0 +1,162 @@
+{
+ "site": "https://zunexautomations-ai.github.io/zunex-solutions",
+ "pages": {
+  "/": {
+   "h1": "We build what's next.",
+   "title": "Zunex Solutions | Web Development, SaaS, AI & Digital Solutions",
+   "description": "Zunex Solutions builds modern websites, SaaS platforms, AI solutions, full-stack applications and digital experiences for ambitious businesses."
+  },
+  "/services": {
+   "h1": "Web, SaaS, AI and full-stack development services",
+   "title": "Services | Web, SaaS, AI & App Development | Zunex Solutions",
+   "description": "Modern web development, SaaS platforms, AI solutions, full-stack apps, social media, digital marketing and SEO from Zunex Solutions."
+  },
+  "/about": {
+   "h1": "About Zunex Solutions",
+   "title": "About Zunex Solutions | Our Founder, Team & Approach",
+   "description": "Meet the Zunex Solutions team: founder Zubair Ali, developers, an AI engineer and a marketing designer building digital products that scale."
+  },
+  "/portfolio": {
+   "h1": "Selected work from Zunex Lab",
+   "title": "Portfolio | Concept Products by Zunex Lab | Zunex Solutions",
+   "description": "Explore six concept products from Zunex Lab: AI SaaS, fintech, eCommerce, education, healthcare and automation interfaces."
+  },
+  "/contact": {
+   "h1": "Let's build something great",
+   "title": "Contact Zunex Solutions | Start Your Project",
+   "description": "Tell us about your project. Contact Zunex Solutions by form, call or WhatsApp to discuss web, SaaS, AI and app development."
+  },
+  "/portfolio/nexora": {
+   "h1": "Nexora: AI SaaS Platform (concept project)",
+   "title": "Nexora | AI SaaS Platform Concept | Zunex Lab",
+   "description": "Nexora is a Zunex Lab concept project: a ai saas platform interface with challenge, solution, technology and key features."
+  },
+  "/portfolio/finora": {
+   "h1": "Finora: FinTech Dashboard (concept project)",
+   "title": "Finora | FinTech Dashboard Concept | Zunex Lab",
+   "description": "Finora is a Zunex Lab concept project: a fintech dashboard interface with challenge, solution, technology and key features."
+  },
+  "/portfolio/shopnova": {
+   "h1": "ShopNova: eCommerce Platform (concept project)",
+   "title": "ShopNova | eCommerce Platform Concept | Zunex Lab",
+   "description": "ShopNova is a Zunex Lab concept project: a ecommerce platform interface with challenge, solution, technology and key features."
+  },
+  "/portfolio/edulink": {
+   "h1": "EduLink: Education Management SaaS (concept project)",
+   "title": "EduLink | Education Management SaaS Concept | Zunex Lab",
+   "description": "EduLink is a Zunex Lab concept project: a education management saas interface with challenge, solution, technology and key features."
+  },
+  "/portfolio/medixa": {
+   "h1": "Medixa: Healthcare Digital Platform (concept project)",
+   "title": "Medixa | Healthcare Digital Platform Concept | Zunex Lab",
+   "description": "Medixa is a Zunex Lab concept project: a healthcare digital platform interface with challenge, solution, technology and key features."
+  },
+  "/portfolio/flowops": {
+   "h1": "FlowOps: Business Automation Platform (concept project)",
+   "title": "FlowOps | Business Automation Platform Concept | Zunex Lab",
+   "description": "FlowOps is a Zunex Lab concept project: a business automation platform interface with challenge, solution, technology and key features."
+  },
+  "/blog": {
+   "h1": "Tech news, guides and updates",
+   "title": "Blog | IT News, Web, AI & SEO Updates | Zunex Solutions",
+   "description": "Researched IT news and practical guides on AI, web development, security, SEO and cloud, updated October 2026, from the Zunex Solutions team."
+  },
+  "/blog/ai-agents-for-business-2026": {
+   "h1": "AI Agents in 2026: What Businesses Are Actually Doing With Them",
+   "title": "AI Agents for Business in 2026 | Zunex Solutions",
+   "description": "AI agents moved from demos to real workflows in 2026. Here is what adoption data shows, where projects stall and how to start small."
+  },
+  "/blog/cloud-market-q2-2026-ai-growth": {
+   "h1": "Cloud Spending Passed USD 143 Billion in Q2 2026: What Is Driving It",
+   "title": "Cloud Market Q2 2026: USD 143B | Zunex Solutions",
+   "description": "Cloud infrastructure spending hit USD 143 billion in Q2 2026, the fastest growth in eight years. What AWS, Azure and Google Cloud shares mean for you."
+  },
+  "/blog/core-web-vitals-2026-lcp-inp-cls": {
+   "h1": "Core Web Vitals in 2026: What to Fix First (INP, LCP, CLS)",
+   "title": "Core Web Vitals 2026: What to Fix | Zunex Solutions",
+   "description": "Core Web Vitals in 2026: the three metrics, current thresholds, how much they affect rankings and the fixes that make the biggest difference."
+  },
+  "/blog/eu-ai-act-digital-omnibus-deadlines": {
+   "h1": "EU AI Act: The High-Risk Deadline Moved, Here Is What Did Not",
+   "title": "EU AI Act Deadlines After the Omnibus | Zunex Solutions",
+   "description": "The EU's Digital Omnibus delayed high-risk AI deadlines to 2027 and 2028. Other AI Act duties still apply. A plain summary for businesses."
+  },
+  "/blog/google-ai-mode-seo-2026": {
+   "h1": "Google AI Mode and SEO in 2026: What Still Works",
+   "title": "SEO in 2026: Google AI Mode Explained | Zunex Solutions",
+   "description": "Google's May 2026 core update and AI Mode changed how people search. Here is what Google says about SEO now and what to do about it."
+  },
+  "/blog/model-context-protocol-mcp-2026-spec": {
+   "h1": "MCP in 2026: What the Biggest Spec Update Means for AI Builders",
+   "title": "MCP 2026 Spec Update Explained | Zunex Solutions",
+   "description": "The Model Context Protocol's 2026-07-28 update made MCP stateless and enterprise-ready. What changed and how it affects AI integrations."
+  },
+  "/blog/nextjs-16-3-security-updates": {
+   "h1": "Next.js 16.3 and Why Patching Matters More Than New Features",
+   "title": "Next.js 16.3 and Security Updates | Zunex Solutions",
+   "description": "Next.js 16.3 added AI-focused tooling, while a steady run of security releases means upgrading is now part of the job. What to know."
+  },
+  "/blog/nodejs-26-lts-upgrade-guide": {
+   "h1": "Node.js 26 Goes LTS This Month: Should You Upgrade?",
+   "title": "Node.js 26 LTS Upgrade Guide | Zunex Solutions",
+   "description": "Node.js 26 reaches LTS in October 2026 with the Temporal API on by default. What is new, what breaks and when to move production."
+  },
+  "/blog/npm-supply-chain-attacks-2026": {
+   "h1": "npm Supply Chain Attacks in 2026: How to Protect Your Project",
+   "title": "npm Supply Chain Security in 2026 | Zunex Solutions",
+   "description": "npm supply chain attacks keep escalating in 2026. Learn what happened, why worms target tokens and the habits that cut your risk."
+  },
+  "/blog/pakistan-it-exports-fy26-record": {
+   "h1": "Pakistan's IT Exports Hit a Record USD 4.6 Billion in FY26",
+   "title": "Pakistan IT Exports Hit USD 4.6B in FY26 | Zunex Solutions",
+   "description": "Pakistan's IT exports reached a record USD 4.6 billion in FY2026, with freelancers passing USD 1 billion. What the numbers mean for businesses."
+  },
+  "/blog/post-quantum-cryptography-migration-2026": {
+   "h1": "Post-Quantum Cryptography in 2026: A Plain-English Migration Guide",
+   "title": "Post-Quantum Cryptography Guide 2026 | Zunex Solutions",
+   "description": "Post-quantum cryptography is moving from research to rules in 2026. Learn the deadlines, the harvest-now risk and the first step to take."
+  },
+  "/blog/shopify-agentic-commerce-2026": {
+   "h1": "Shopify's Agentic Commerce Push: Should Your Store Sell Through AI Assistants?",
+   "title": "Shopify Agentic Commerce in 2026 | Zunex Solutions",
+   "description": "Shopify's June 2026 Editions put agentic commerce at the centre. What it is, what is real so far and how to prepare your store."
+  },
+  "/blog/stack-overflow-survey-2026-ai-coding-tools": {
+   "h1": "Stack Overflow's 2026 Survey: Developers Use AI Daily, but Verify Everything",
+   "title": "Stack Overflow 2026 Survey: AI Coding | Zunex Solutions",
+   "description": "Stack Overflow's 2026 survey shows daily AI coding use but cautious trust. What it means for software quality and your next project."
+  },
+  "/blog/supabase-backend-for-startups-2026": {
+   "h1": "Supabase in 2026: A Practical Backend for Small Teams (and the Security Catch)",
+   "title": "Supabase Backend Guide 2026 | Zunex Solutions",
+   "description": "Supabase keeps adding features in 2026. Here is what is new, why row level security matters most and when it fits your product."
+  },
+  "/blog/typescript-7-native-compiler": {
+   "h1": "TypeScript 7 Is Here: A Go Compiler That Is Up to 12x Faster",
+   "title": "TypeScript 7: Go Compiler, 12x Faster | Zunex Solutions",
+   "description": "TypeScript 7.0 ships a native Go compiler with 8x to 12x faster builds. What changes, what breaks and how to upgrade safely."
+  }
+ },
+ "faq": [
+  [
+   "What services does Zunex Solutions offer?",
+   "We offer modern web development, SaaS development, AI solutions, full-stack app development, social media solutions, digital marketing and SEO."
+  ],
+  [
+   "Which technologies do you work with?",
+   "React, Next.js, TypeScript, Node.js, Python, PHP, Laravel, Supabase, PostgreSQL, MySQL, Flutter, Shopify and AI APIs, among others."
+  ],
+  [
+   "Can you build AI features into an existing product?",
+   "Yes. We build practical AI features such as workflow automation, LLM-powered assistants, retrieval systems and AI agents."
+  ],
+  [
+   "How does a project start?",
+   "Send a project request through our contact form or message us on WhatsApp. We discuss your goals, then agree on direction, scope and next steps."
+  ],
+  [
+   "Do you work with clients remotely?",
+   "Yes. Our team works remotely with clients, and we are based in Sahiwal, Punjab, Pakistan."
+  ]
+ ]
+}

@@ -1,7 +1,8 @@
 import { useEffect, useState, FormEvent } from 'react'; import { supabase } from '../lib/supabase'
 type Row={id:string;name:string;email:string;phone:string|null;company:string|null;service:string|null;budget:string|null;project_details:string;status:string;created_at:string}
 const statuses=['new','contacted','in_progress','completed','archived']
-export default function Admin(){const [authed,setAuthed]=useState(false),[rows,setRows]=useState<Row[]>([]),[msg,setMsg]=useState('')
+import { useSeo } from '../lib/seo'
+export default function Admin(){useSeo('/admin',true,{title:'Admin | Zunex Solutions',description:'Private area.'});const [authed,setAuthed]=useState(false),[rows,setRows]=useState<Row[]>([]),[msg,setMsg]=useState('')
 const load=async()=>{const {data,error}=await supabase.from('contact_submissions').select('*').order('created_at',{ascending:false});if(error)setMsg(error.message);else setRows(data as Row[])}
 useEffect(()=>{supabase.auth.getSession().then(({data})=>{if(data.session){setAuthed(true);load()}})},[])
 async function login(e:FormEvent<HTMLFormElement>){e.preventDefault();const d=new FormData(e.currentTarget);const {error}=await supabase.auth.signInWithPassword({email:String(d.get('email')),password:String(d.get('password'))});if(error)setMsg('Login failed.');else{setMsg('');setAuthed(true);load()}}

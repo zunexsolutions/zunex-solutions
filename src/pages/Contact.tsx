@@ -2,7 +2,8 @@ import { useState, FormEvent } from 'react'; import { supabase } from '../lib/su
 const services=['Web Development','SaaS Development','AI Solutions','Full Stack App Development','Social Media Solutions','Digital Marketing','SEO','Other']
 const budgets=['Under $500','$500 – $1,500','$1,500 – $3,000','$3,000 – $5,000','$5,000+']
 const f='w-full border border-white/10 bg-panel px-4 py-3 text-sm'
-export default function Contact(){const [state,setState]=useState<'idle'|'loading'|'done'|'error'>('idle'),[err,setErr]=useState('')
+import { useSeo } from '../lib/seo'
+export default function Contact(){useSeo('/contact');const [state,setState]=useState<'idle'|'loading'|'done'|'error'>('idle'),[err,setErr]=useState('')
 async function submit(e:FormEvent<HTMLFormElement>){e.preventDefault();const form=e.currentTarget,d=Object.fromEntries(new FormData(form)) as Record<string,string>
 if(!/^\S+@\S+\.\S+$/.test(d.email||'')||!d.name?.trim()||(d.project_details||'').trim().length<10){setErr('Please enter your name, a valid email and at least 10 characters of project details.');setState('error');return}
 setState('loading');const {error}=await supabase.from('contact_submissions').insert({name:d.name.trim(),email:d.email.trim(),phone:d.phone,company:d.company,service:d.service,budget:d.budget,project_details:d.project_details.trim()})
