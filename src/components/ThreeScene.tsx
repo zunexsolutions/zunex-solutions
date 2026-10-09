@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'; import * as THREE from 'three'
 export default function ThreeScene(){const ref=useRef<HTMLDivElement>(null)
 useEffect(()=>{const el=ref.current!;const mobile=innerWidth<768;const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches
-const r=new THREE.WebGLRenderer({alpha:true,antialias:false});r.setPixelRatio(Math.min(devicePixelRatio,1.5));r.setSize(el.clientWidth,el.clientHeight);el.appendChild(r.domElement)
+let r:THREE.WebGLRenderer;try{r=new THREE.WebGLRenderer({alpha:true,antialias:false})}catch{return};r.setPixelRatio(Math.min(devicePixelRatio,1.5));r.setSize(el.clientWidth,el.clientHeight);el.appendChild(r.domElement)
 const s=new THREE.Scene(),c=new THREE.PerspectiveCamera(60,el.clientWidth/el.clientHeight,.1,100);c.position.z=6
 const n=mobile?120:350,p=new Float32Array(n*3).map(()=>(Math.random()-.5)*12)
 const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.BufferAttribute(p,3))

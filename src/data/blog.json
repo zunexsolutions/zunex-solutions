@@ -5,6 +5,7 @@
   "description": "AI agents moved from demos to real workflows in 2026. Here is what adoption data shows, where projects stall and how to start small.",
   "keyword": "AI agents for business",
   "category": "AI",
+  "kind": "news",
   "date": "2026-10-08",
   "updated": "2026-10-08",
   "readMin": 2,
@@ -63,6 +64,7 @@
   "description": "Cloud infrastructure spending hit USD 143 billion in Q2 2026, the fastest growth in eight years. What AWS, Azure and Google Cloud shares mean for you.",
   "keyword": "cloud market 2026",
   "category": "Cloud",
+  "kind": "news",
   "date": "2026-10-08",
   "updated": "2026-10-08",
   "readMin": 2,
@@ -115,6 +117,7 @@
   "description": "Core Web Vitals in 2026: the three metrics, current thresholds, how much they affect rankings and the fixes that make the biggest difference.",
   "keyword": "Core Web Vitals 2026",
   "category": "SEO",
+  "kind": "news",
   "date": "2026-10-08",
   "updated": "2026-10-08",
   "readMin": 2,
@@ -173,6 +176,7 @@
   "description": "The EU's Digital Omnibus delayed high-risk AI deadlines to 2027 and 2028. Other AI Act duties still apply. A plain summary for businesses.",
   "keyword": "EU AI Act deadlines",
   "category": "Regulation",
+  "kind": "news",
   "date": "2026-10-08",
   "updated": "2026-10-08",
   "readMin": 2,
@@ -231,6 +235,7 @@
   "description": "Google's May 2026 core update and AI Mode changed how people search. Here is what Google says about SEO now and what to do about it.",
   "keyword": "SEO in 2026",
   "category": "SEO",
+  "kind": "news",
   "date": "2026-10-08",
   "updated": "2026-10-08",
   "readMin": 2,
@@ -288,6 +293,7 @@
   "description": "The Model Context Protocol's 2026-07-28 update made MCP stateless and enterprise-ready. What changed and how it affects AI integrations.",
   "keyword": "Model Context Protocol",
   "category": "AI",
+  "kind": "news",
   "date": "2026-10-08",
   "updated": "2026-10-08",
   "readMin": 2,
@@ -340,6 +346,7 @@
   "description": "Next.js 16.3 added AI-focused tooling, while a steady run of security releases means upgrading is now part of the job. What to know.",
   "keyword": "Next.js 16 security updates",
   "category": "Web Development",
+  "kind": "news",
   "date": "2026-10-08",
   "updated": "2026-10-08",
   "readMin": 2,
@@ -392,6 +399,7 @@
   "description": "Node.js 26 reaches LTS in October 2026 with the Temporal API on by default. What is new, what breaks and when to move production.",
   "keyword": "Node.js 26",
   "category": "Web Development",
+  "kind": "news",
   "date": "2026-10-08",
   "updated": "2026-10-08",
   "readMin": 2,
@@ -444,6 +452,7 @@
   "description": "npm supply chain attacks keep escalating in 2026. Learn what happened, why worms target tokens and the habits that cut your risk.",
   "keyword": "npm supply chain security",
   "category": "Security",
+  "kind": "news",
   "date": "2026-10-08",
   "updated": "2026-10-08",
   "readMin": 2,
@@ -498,6 +507,7 @@
   "description": "Pakistan's IT exports reached a record USD 4.6 billion in FY2026, with freelancers passing USD 1 billion. What the numbers mean for businesses.",
   "keyword": "Pakistan IT exports",
   "category": "Business",
+  "kind": "news",
   "date": "2026-10-08",
   "updated": "2026-10-08",
   "readMin": 2,
@@ -554,6 +564,7 @@
   "description": "Post-quantum cryptography is moving from research to rules in 2026. Learn the deadlines, the harvest-now risk and the first step to take.",
   "keyword": "post-quantum cryptography",
   "category": "Security",
+  "kind": "news",
   "date": "2026-10-08",
   "updated": "2026-10-08",
   "readMin": 2,
@@ -612,6 +623,7 @@
   "description": "Shopify's June 2026 Editions put agentic commerce at the centre. What it is, what is real so far and how to prepare your store.",
   "keyword": "Shopify agentic commerce",
   "category": "E-commerce",
+  "kind": "news",
   "date": "2026-10-08",
   "updated": "2026-10-08",
   "readMin": 2,
@@ -664,6 +676,7 @@
   "description": "Stack Overflow's 2026 survey shows daily AI coding use but cautious trust. What it means for software quality and your next project.",
   "keyword": "AI coding tools",
   "category": "AI",
+  "kind": "news",
   "date": "2026-10-08",
   "updated": "2026-10-08",
   "readMin": 2,
@@ -712,6 +725,7 @@
   "description": "Supabase keeps adding features in 2026. Here is what is new, why row level security matters most and when it fits your product.",
   "keyword": "Supabase backend",
   "category": "Web Development",
+  "kind": "news",
   "date": "2026-10-08",
   "updated": "2026-10-08",
   "readMin": 2,
@@ -762,6 +776,7 @@
   "description": "TypeScript 7.0 ships a native Go compiler with 8x to 12x faster builds. What changes, what breaks and how to upgrade safely.",
   "keyword": "TypeScript 7",
   "category": "Web Development",
+  "kind": "news",
   "date": "2026-10-08",
   "updated": "2026-10-08",
   "readMin": 2,
@@ -811,5 +826,543 @@
     "https://linuxiac.com/typescript-7-0-rewrites-the-compiler-in-go-for-up-to-12x-faster-builds/"
    ]
   ]
+ },
+ {
+  "slug": "brand-identity-basics-for-small-business",
+  "title": "Brand Identity Basics: More Than a Logo",
+  "description": "What brand identity really includes, how to define purpose, audience and personality, and how to build a simple brand kit that keeps you consistent.",
+  "keyword": "brand identity for small business",
+  "category": "Branding",
+  "kind": "guide",
+  "date": "2026-10-08",
+  "updated": "2026-10-08",
+  "readMin": 2,
+  "seoTitle": "Brand Identity Basics for Small Business | Zunex",
+  "intro": "A logo is not a brand. A brand is what people expect and remember when they deal with you. Brand identity is the set of deliberate choices, visual and verbal, that make that impression consistent.",
+  "sections": [
+   {
+    "h": "Start with the thinking",
+    "p": [
+     "Before touching colours, answer these in plain sentences.",
+     "The answers become your positioning. Everything visual should support them."
+    ],
+    "l": [
+     "Who exactly are you for?",
+     "What problem do you solve, and why are you better or different?",
+     "What three words should customers use to describe you?",
+     "What do you refuse to be?"
+    ]
+   },
+   {
+    "h": "The visual identity",
+    "p": [],
+    "l": [
+     "Logo: a primary version, a compact version and a one-colour version.",
+     "Colour: one main colour, one or two supports and neutral tones. Check contrast so text stays readable.",
+     "Typography: one font for headings and one for body text is plenty.",
+     "Imagery: decide the style of photos and graphics, and stick to it.",
+     "Layout: consistent spacing and alignment make you look professional."
+    ]
+   },
+   {
+    "h": "Build a simple brand kit",
+    "p": [
+     "Put the essentials in one short document: logo files, colour codes, fonts, voice notes and a few examples. Anyone who designs for you, from a freelancer to a printer, should be able to follow it."
+    ]
+   },
+   {
+    "h": "Common mistakes",
+    "p": [],
+    "l": [
+     "Copying a competitor, so you blend in.",
+     "Using too many colours and fonts.",
+     "Changing the look every few months.",
+     "Forgetting the experience: replies, packaging, invoices and how you answer the phone are part of the brand."
+    ]
+   },
+   {
+    "h": "Consistency beats perfection",
+    "p": [
+     "A good, simple identity used everywhere beats a brilliant one used in half the places. Check your website, social profiles, documents and signage for matches."
+    ]
+   },
+   {
+    "h": "What this means for your business",
+    "p": [
+     "Our design work starts with these questions, not with a logo. If your brand feels scattered, a short review often fixes more than a full redesign."
+    ]
+   }
+  ],
+  "sources": []
+ },
+ {
+  "slug": "google-ads-campaign-structure-for-beginners",
+  "title": "Google Ads for Beginners: Structure Your First Campaign Properly",
+  "description": "How to set up a Google Ads account the right way: campaign types, keyword match types, negative keywords, tracking and budgets that avoid waste.",
+  "keyword": "Google Ads for beginners",
+  "category": "Google Ads",
+  "kind": "guide",
+  "date": "2026-10-08",
+  "updated": "2026-10-08",
+  "readMin": 2,
+  "seoTitle": "Google Ads for Beginners: Campaign Structure | Zunex",
+  "intro": "Most wasted ad spend comes from a messy setup, not from Google Ads itself. A tidy structure makes everything easier: writing relevant ads, controlling cost and understanding what works. Menus and names change over time, so check Google's help pages for the latest screens.",
+  "sections": [
+   {
+    "h": "The structure",
+    "p": [
+     "An account holds campaigns. Each campaign has a budget, location and goal. Inside it, ad groups hold a small set of closely related keywords and the ads that match them."
+    ]
+   },
+   {
+    "h": "Pick the right campaign type",
+    "p": [],
+    "l": [
+     "Search: text ads when people look for what you sell. The best starting point for most local and service businesses.",
+     "Performance Max: automated across Google's channels. Needs good conversion data and assets.",
+     "Shopping: product listings for online stores.",
+     "Display and YouTube: awareness and retargeting."
+    ]
+   },
+   {
+    "h": "Keywords and match types",
+    "p": [
+     "Broad match reaches the widest set of searches, phrase match requires the meaning to be included and exact match is the tightest. Start tighter, then widen once you see real search terms."
+    ]
+   },
+   {
+    "h": "Negative keywords",
+    "p": [
+     "Add terms you do not want to show for, such as free, jobs or DIY. Reviewing the search terms report weekly and adding negatives is the single easiest way to cut waste."
+    ]
+   },
+   {
+    "h": "Write ads people want to click",
+    "p": [
+     "Responsive search ads let you supply up to 15 headlines and 4 descriptions. Include the keyword, a clear benefit and one call to action. Make sure the landing page delivers exactly what the ad promised, because that affects your Quality Score, which Google rates from 1 to 10."
+    ]
+   },
+   {
+    "h": "Set up conversion tracking first",
+    "p": [
+     "Before spending, track what counts: calls, form submissions, purchases. Without it, bidding strategies have nothing to learn from and you cannot tell what pays."
+    ]
+   },
+   {
+    "h": "Budget and patience",
+    "p": [
+     "Start with a daily budget you can afford to lose while learning. Give automated bidding time to gather data before judging it, and change one thing at a time."
+    ]
+   },
+   {
+    "h": "What this means for your business",
+    "p": [
+     "We set up and manage Google Ads and Meta Ads with clean structure and tracking from day one, and we report in plain language: what you spent and what it brought in."
+    ]
+   }
+  ],
+  "sources": [
+   [
+    "Google Ads Help",
+    "https://support.google.com/google-ads"
+   ]
+  ]
+ },
+ {
+  "slug": "how-large-language-models-work",
+  "title": "How Large Language Models Work, in Plain English",
+  "description": "What an LLM is, how it predicts text, why it sometimes makes things up and how techniques like RAG help. A clear guide with no maths.",
+  "keyword": "how do LLMs work",
+  "category": "AI",
+  "kind": "guide",
+  "date": "2026-10-08",
+  "updated": "2026-10-08",
+  "readMin": 2,
+  "seoTitle": "How Large Language Models (LLMs) Work | Zunex",
+  "intro": "A large language model, or LLM, is software trained to predict the next piece of text. That sounds modest, yet doing it well across billions of examples gives it surprising abilities: answering questions, summarising, translating and writing code.",
+  "sections": [
+   {
+    "h": "Tokens, not words",
+    "p": [
+     "Models read text as tokens, small chunks that can be a word, part of a word or punctuation. Everything a model does is choosing the next token, then the next, until it finishes. That is why long answers are billed and limited by tokens."
+    ]
+   },
+   {
+    "h": "What a transformer does",
+    "p": [
+     "Most modern models use the transformer design introduced in 2017. Its key idea, attention, lets the model weigh which earlier words matter most for the word it is about to produce. It is how the model keeps track of who is who in a long paragraph."
+    ]
+   },
+   {
+    "h": "Training versus using it",
+    "p": [
+     "Training is the expensive part. The model sees huge amounts of text and adjusts its internal numbers to get better at prediction. Using it, called inference, just applies those fixed numbers to your prompt. The model does not learn from your chat unless the provider sets that up separately."
+    ]
+   },
+   {
+    "h": "Why models make things up",
+    "p": [
+     "The model produces likely-sounding text, not verified facts. When it lacks information it can still produce a confident, wrong answer. This is often called a hallucination. Treat outputs about names, numbers, laws and citations as drafts to check."
+    ]
+   },
+   {
+    "h": "Tools that improve reliability",
+    "p": [],
+    "l": [
+     "Better prompts: clear instructions, examples and a defined format.",
+     "Retrieval (RAG): fetch your own documents first and ask the model to answer only from them.",
+     "Tools: let the model call a calculator, database or API instead of guessing.",
+     "Human review for anything important."
+    ]
+   },
+   {
+    "h": "Context windows",
+    "p": [
+     "A model can only consider a limited amount of text at once, called its context window. Very long inputs may be handled less reliably, so send what matters."
+    ]
+   },
+   {
+    "h": "What this means for your business",
+    "p": [
+     "Knowing these limits helps you use AI well: give it narrow jobs, feed it your real data and keep a person in the loop. That is how we design AI features for clients."
+    ]
+   }
+  ],
+  "sources": [
+   [
+    "Attention Is All You Need (the original transformer paper)",
+    "https://arxiv.org/abs/1706.03762"
+   ]
+  ]
+ },
+ {
+  "slug": "how-to-write-a-brand-voice-guide",
+  "title": "How to Write a Brand Voice Guide Your Team Will Actually Use",
+  "description": "Define your brand voice with a few clear traits, before-and-after examples and channel rules so everyone writes in the same recognisable style.",
+  "keyword": "brand voice guide",
+  "category": "Branding",
+  "kind": "guide",
+  "date": "2026-10-08",
+  "updated": "2026-10-08",
+  "readMin": 2,
+  "seoTitle": "How to Write a Brand Voice Guide | Zunex",
+  "intro": "Brand voice is how your business sounds in writing. Tone changes with the situation, but voice stays recognisable. Without one, your website sounds formal, your Instagram sounds silly and your emails sound like someone else entirely.",
+  "sections": [
+   {
+    "h": "Voice versus tone",
+    "p": [
+     "Voice is your personality: warm, direct, curious. Tone is how you dial it for the moment. You would write differently to apologise for a delay than to announce a launch, but both should sound like you."
+    ]
+   },
+   {
+    "h": "Choose three or four traits",
+    "p": [
+     "For each trait, say what it means and what it does not. For example:"
+    ],
+    "l": [
+     "Clear: we use short sentences and everyday words. We do not hide behind jargon.",
+     "Warm: we are friendly and respectful. We do not use slang or sarcasm.",
+     "Confident: we say what we know. We do not exaggerate or make promises we cannot keep."
+    ]
+   },
+   {
+    "h": "Show it with examples",
+    "p": [
+     "A before-and-after pair teaches faster than any description. Take a real sentence from your website and rewrite it in your voice. Keep five to ten of these."
+    ]
+   },
+   {
+    "h": "Add a few practical rules",
+    "p": [],
+    "l": [
+     "Words we like and words we avoid.",
+     "How we address the customer.",
+     "How we handle numbers, dates and names.",
+     "Whether we use emoji, and where."
+    ]
+   },
+   {
+    "h": "Adapt by channel",
+    "p": [
+     "Your website can be calm and complete. A reel caption should be short and lively. A support reply should be patient and specific. Write a line for each channel on how the voice flexes."
+    ]
+   },
+   {
+    "h": "Test it",
+    "p": [
+     "Give an unlabelled paragraph to a colleague and ask whether it sounds like your company. Ask a customer the same. Adjust until it does."
+    ]
+   },
+   {
+    "h": "What this means for your business",
+    "p": [
+     "A voice guide of one or two pages is enough. We help clients draft one, then apply it across the website, ads and social content."
+    ]
+   }
+  ],
+  "sources": []
+ },
+ {
+  "slug": "n8n-ai-lead-follow-up-workflow",
+  "title": "Build an AI Lead Follow-Up Workflow in n8n, Step by Step",
+  "description": "Design an n8n workflow that reads new leads, classifies them with AI, drafts a reply for approval and logs everything. Steps, guardrails and tests.",
+  "keyword": "n8n AI agent workflow",
+  "category": "n8n",
+  "kind": "guide",
+  "date": "2026-10-08",
+  "updated": "2026-10-08",
+  "readMin": 2,
+  "seoTitle": "n8n AI Lead Follow-Up Workflow Guide | Zunex",
+  "intro": "Slow follow-up loses leads. This guide outlines an n8n workflow that reads each new enquiry, works out how serious it is and prepares a reply, while keeping a person in charge of what gets sent.",
+  "sections": [
+   {
+    "h": "The flow at a glance",
+    "p": [
+     "Contact form, then Webhook, then clean the data, then AI classification, then branch by priority, then draft a reply, then human approval, then send and log."
+    ]
+   },
+   {
+    "h": "Step by step",
+    "p": [
+     "1. Trigger. Point your website form at an n8n Webhook node. Return a quick success response so the visitor is not left waiting. 2. Clean. Use Edit Fields to keep name, email, company, budget and message, and trim whitespace. 3. Classify. Send the message to an AI node with clear instructions: label it as quote request, support, partnership or spam, and rate urgency from 1 to 3. Ask for structured output so later nodes can read it. 4. Branch. An IF node sends high-urgency leads to an instant alert on your phone. 5. Draft. A second AI step writes a short, polite reply using only facts you provide, such as services and opening hours. 6. Approve. Post the draft to a chat channel or email with approve and edit options. Nothing goes to the customer yet. 7. Send and log. After approval, send the email and add a row to your sheet or CRM."
+    ]
+   },
+   {
+    "h": "Guardrails that matter",
+    "p": [],
+    "l": [
+     "Tell the model never to invent prices, dates or promises.",
+     "Keep the prompt and the facts in one place so they are easy to update.",
+     "Handle failures: if the AI step errors, still log the lead and alert you.",
+     "Mind privacy. Only send the data the model needs."
+    ]
+   },
+   {
+    "h": "Testing",
+    "p": [
+     "Run twenty real past enquiries through it, including rude ones, foreign-language ones and spam. Fix what breaks before going live."
+    ]
+   },
+   {
+    "h": "What this means for your business",
+    "p": [
+     "Done well, this saves hours a week and means no lead waits overnight. We build versions of it for clients, tuned to their tone and tools."
+    ]
+   }
+  ],
+  "sources": [
+   [
+    "n8n documentation",
+    "https://docs.n8n.io/"
+   ]
+  ]
+ },
+ {
+  "slug": "n8n-workflow-automation-beginners-guide",
+  "title": "n8n for Beginners: How Workflow Automation Actually Works",
+  "description": "A beginner's guide to n8n: what it is, the core building blocks, how triggers and nodes work and how to build your first workflow safely.",
+  "keyword": "n8n workflow automation",
+  "category": "n8n",
+  "kind": "guide",
+  "date": "2026-10-08",
+  "updated": "2026-10-08",
+  "readMin": 2,
+  "seoTitle": "n8n Beginner Guide: Workflow Automation | Zunex",
+  "intro": "n8n is a workflow automation tool. You connect apps and steps on a visual canvas, and n8n runs them for you: when something happens in one place, do these things in another. It can be used through n8n's hosted cloud or installed on your own server, which is a big reason developers like it.",
+  "sections": [
+   {
+    "h": "The building blocks",
+    "p": [
+     "Every workflow is a chain of nodes. A trigger node starts it, and the rest do the work."
+    ],
+    "l": [
+     "Triggers: a Webhook (a URL that receives data), a Schedule (every morning at 9), or an event from an app.",
+     "Action nodes: send an email, add a row, create a task, post a message.",
+     "Logic nodes: IF and Switch to branch, Merge to combine, and Edit Fields (Set) to tidy data.",
+     "HTTP Request: calls almost any API when there is no ready-made node.",
+     "Code: a small JavaScript or Python step for anything custom.",
+     "AI nodes: including an AI Agent node that can use tools you give it."
+    ]
+   },
+   {
+    "h": "How data moves",
+    "p": [
+     "Each node receives items from the previous one and passes new items on. Open any node after a test run and you can see the exact data in and out, which makes debugging far easier than guessing."
+    ]
+   },
+   {
+    "h": "Your first workflow",
+    "p": [
+     "A friendly starter: website form to Webhook, then Edit Fields to clean the data, then add a row to a Google Sheet, then send yourself a WhatsApp or email alert. Test it with real sample data before switching it on."
+    ]
+   },
+   {
+    "h": "Habits that save you later",
+    "p": [],
+    "l": [
+     "Store passwords and keys in n8n credentials, never inside a node.",
+     "Add an error workflow so failures notify you.",
+     "Name every node clearly. Future you will thank you.",
+     "Watch the execution list in the first week."
+    ]
+   },
+   {
+    "h": "A note on licensing",
+    "p": [
+     "n8n uses a source-available licence that is free for many uses but has limits on commercial hosting. Read the current terms before building a product on top of it."
+    ]
+   },
+   {
+    "h": "What this means for your business",
+    "p": [
+     "If you repeat the same copy-paste task every week, n8n can probably do it. We build and host these workflows for clients and keep them monitored so they keep running."
+    ]
+   }
+  ],
+  "sources": [
+   [
+    "n8n documentation",
+    "https://docs.n8n.io/"
+   ]
+  ]
+ },
+ {
+  "slug": "on-page-seo-checklist",
+  "title": "The On-Page SEO Checklist We Use Before Publishing",
+  "description": "A practical on-page SEO checklist covering titles, headings, content, links, images, speed and structured data. Use it on every page you publish.",
+  "keyword": "on-page SEO checklist",
+  "category": "SEO",
+  "kind": "guide",
+  "date": "2026-10-08",
+  "updated": "2026-10-08",
+  "readMin": 2,
+  "seoTitle": "On-Page SEO Checklist for Every Page | Zunex",
+  "intro": "On-page SEO is everything you control on the page itself. Nothing here is a trick. It is simply making the page clear for people first and for search engines second. Run through this list before you hit publish.",
+  "sections": [
+   {
+    "h": "Content and intent",
+    "p": [],
+    "l": [
+     "Decide what one question or task the page serves.",
+     "Answer it early, then go deeper.",
+     "Use the words your customers use, including your main keyword, once or twice naturally.",
+     "Add something original: your experience, examples, photos or numbers.",
+     "Show who wrote it and when it was updated."
+    ]
+   },
+   {
+    "h": "Titles and descriptions",
+    "p": [],
+    "l": [
+     "Give every page its own title, ideally under about 60 characters, with the main topic near the start.",
+     "Write a meta description of roughly 120 to 155 characters that earns the click. It may not always be shown, but it helps."
+    ]
+   },
+   {
+    "h": "Structure",
+    "p": [],
+    "l": [
+     "One h1 per page. Use h2 and h3 to organise the rest.",
+     "Short, readable URLs, for example /services/seo.",
+     "Link to related pages with descriptive anchor text, not click here."
+    ]
+   },
+   {
+    "h": "Images and media",
+    "p": [],
+    "l": [
+     "Compress images and set width and height to avoid layout jumps.",
+     "Write alt text that describes what the image shows.",
+     "Lazy-load images below the fold."
+    ]
+   },
+   {
+    "h": "Technical basics",
+    "p": [],
+    "l": [
+     "The page loads fast on mobile and is mobile friendly.",
+     "It is reachable by links and listed in your sitemap.",
+     "The canonical tag points to the right address.",
+     "Add structured data where it fits, such as organisation, article or FAQ."
+    ]
+   },
+   {
+    "h": "After publishing",
+    "p": [
+     "Check the page in Google Search Console, request indexing and review performance after a few weeks, then improve what is not working."
+    ]
+   },
+   {
+    "h": "What this means for your business",
+    "p": [
+     "We build these basics into every site we make, so SEO is not an afterthought. If you already have a site, a short audit against this list usually finds quick wins."
+    ]
+   }
+  ],
+  "sources": [
+   [
+    "Google Search Central: SEO Starter Guide",
+    "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+   ]
+  ]
+ },
+ {
+  "slug": "what-is-ai-automation-for-small-business",
+  "title": "What Is AI Automation? A Practical Guide for Small Businesses",
+  "description": "AI automation explained in plain English: how it differs from normal automation, where it pays off first and how a small business can start safely.",
+  "keyword": "AI automation for small business",
+  "category": "AI Automation",
+  "kind": "guide",
+  "date": "2026-10-08",
+  "updated": "2026-10-08",
+  "readMin": 2,
+  "seoTitle": "What Is AI Automation? Small Business Guide | Zunex",
+  "intro": "AI automation means letting software handle tasks that used to need a person's judgment, such as reading an email, deciding what it is about and writing a first reply. Traditional automation follows fixed rules. AI automation can cope with messy, human input, which is why it has become useful for small teams.",
+  "sections": [
+   {
+    "h": "How it differs from ordinary automation",
+    "p": [
+     "A classic automation says: when a form is submitted, add a row to a spreadsheet. It breaks the moment the input does not match the pattern. An AI step can read a free-text message, work out whether it is a quote request, a complaint or spam, and route it. Most good systems mix both: rules for the predictable parts, AI for the fuzzy parts."
+    ]
+   },
+   {
+    "h": "Where it pays off first",
+    "p": [
+     "Look for work that is repetitive, text-heavy and low risk if it goes slightly wrong."
+    ],
+    "l": [
+     "Sorting and answering common customer questions",
+     "Following up on new leads within minutes instead of days",
+     "Pulling details out of invoices, forms and emails",
+     "Drafting reports and summaries from raw data",
+     "Tagging and organising support tickets"
+    ]
+   },
+   {
+    "h": "Where to be careful",
+    "p": [
+     "Do not let AI make final decisions about money, contracts, hiring or health without a person checking. Models can sound confident and still be wrong, so give them narrow jobs, clear instructions and a human approval step for anything that reaches a customer."
+    ]
+   },
+   {
+    "h": "How to start",
+    "p": [
+     "Pick one process that eats at least a few hours a week. Write down the steps exactly as a person does them today. Automate the simplest version first, run it alongside the manual process for two weeks and compare the results. Only then expand."
+    ]
+   },
+   {
+    "h": "What to measure",
+    "p": [
+     "Track time saved, mistakes caught and how often a person had to step in. If those numbers do not improve after a month, change the design before adding more tools."
+    ]
+   },
+   {
+    "h": "What this means for your business",
+    "p": [
+     "Most small companies do not need a big AI project. They need one or two well-built automations that remove a daily annoyance. That is the kind of work we do at Zunex Solutions, usually with tools like n8n connected to the apps you already use."
+    ]
+   }
+  ],
+  "sources": []
  }
 ]

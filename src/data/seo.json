@@ -1,5 +1,5 @@
 {
- "site": "https://zunexautomations-ai.github.io/zunex-solutions",
+ "site": "https://zunexsolutions.github.io",
  "pages": {
   "/": {
    "h1": "We build what's next.",
@@ -8,8 +8,8 @@
   },
   "/services": {
    "h1": "Web, SaaS, AI and full-stack development services",
-   "title": "Services | Web, SaaS, AI & App Development | Zunex Solutions",
-   "description": "Modern web development, SaaS platforms, AI solutions, full-stack apps, social media, digital marketing and SEO from Zunex Solutions."
+   "title": "Services | Web, SaaS, AI, SEO & Video | Zunex Solutions",
+   "description": "Web development, SaaS, AI solutions, full-stack apps, social media, digital marketing, SEO and videography from Zunex Solutions."
   },
   "/about": {
    "h1": "About Zunex Solutions",
@@ -135,12 +135,52 @@
    "h1": "TypeScript 7 Is Here: A Go Compiler That Is Up to 12x Faster",
    "title": "TypeScript 7: Go Compiler, 12x Faster | Zunex Solutions",
    "description": "TypeScript 7.0 ships a native Go compiler with 8x to 12x faster builds. What changes, what breaks and how to upgrade safely."
+  },
+  "/blog/brand-identity-basics-for-small-business": {
+   "h1": "Brand Identity Basics: More Than a Logo",
+   "title": "Brand Identity Basics for Small Business | Zunex",
+   "description": "What brand identity really includes, how to define purpose, audience and personality, and how to build a simple brand kit that keeps you consistent."
+  },
+  "/blog/google-ads-campaign-structure-for-beginners": {
+   "h1": "Google Ads for Beginners: Structure Your First Campaign Properly",
+   "title": "Google Ads for Beginners: Campaign Structure | Zunex",
+   "description": "How to set up a Google Ads account the right way: campaign types, keyword match types, negative keywords, tracking and budgets that avoid waste."
+  },
+  "/blog/how-large-language-models-work": {
+   "h1": "How Large Language Models Work, in Plain English",
+   "title": "How Large Language Models (LLMs) Work | Zunex",
+   "description": "What an LLM is, how it predicts text, why it sometimes makes things up and how techniques like RAG help. A clear guide with no maths."
+  },
+  "/blog/how-to-write-a-brand-voice-guide": {
+   "h1": "How to Write a Brand Voice Guide Your Team Will Actually Use",
+   "title": "How to Write a Brand Voice Guide | Zunex",
+   "description": "Define your brand voice with a few clear traits, before-and-after examples and channel rules so everyone writes in the same recognisable style."
+  },
+  "/blog/n8n-ai-lead-follow-up-workflow": {
+   "h1": "Build an AI Lead Follow-Up Workflow in n8n, Step by Step",
+   "title": "n8n AI Lead Follow-Up Workflow Guide | Zunex",
+   "description": "Design an n8n workflow that reads new leads, classifies them with AI, drafts a reply for approval and logs everything. Steps, guardrails and tests."
+  },
+  "/blog/n8n-workflow-automation-beginners-guide": {
+   "h1": "n8n for Beginners: How Workflow Automation Actually Works",
+   "title": "n8n Beginner Guide: Workflow Automation | Zunex",
+   "description": "A beginner's guide to n8n: what it is, the core building blocks, how triggers and nodes work and how to build your first workflow safely."
+  },
+  "/blog/on-page-seo-checklist": {
+   "h1": "The On-Page SEO Checklist We Use Before Publishing",
+   "title": "On-Page SEO Checklist for Every Page | Zunex",
+   "description": "A practical on-page SEO checklist covering titles, headings, content, links, images, speed and structured data. Use it on every page you publish."
+  },
+  "/blog/what-is-ai-automation-for-small-business": {
+   "h1": "What Is AI Automation? A Practical Guide for Small Businesses",
+   "title": "What Is AI Automation? Small Business Guide | Zunex",
+   "description": "AI automation explained in plain English: how it differs from normal automation, where it pays off first and how a small business can start safely."
   }
  },
  "faq": [
   [
    "What services does Zunex Solutions offer?",
-   "We offer modern web development, SaaS development, AI solutions, full-stack app development, social media solutions, digital marketing and SEO."
+   "We offer modern web development, SaaS development, AI solutions, full-stack app development, social media solutions, digital marketing, SEO, and videography and video editing."
   ],
   [
    "Which technologies do you work with?",

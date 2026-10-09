@@ -1,6 +1,6 @@
-import { useEffect } from 'react'; import { useLocation, Link } from 'react-router-dom'; import { Code2, Layers, Bot, Smartphone, Share2, Megaphone, Search } from 'lucide-react'
+import { useEffect } from 'react'; import { useLocation, Link } from 'react-router-dom'; import { Code2, Layers, Bot, Smartphone, Share2, Megaphone, Search, Video } from 'lucide-react'
 import { services } from '../data/services'; import { slugify } from '../lib/utils'; import { useSeo } from '../lib/seo'
-const icons=[Code2,Layers,Bot,Smartphone,Share2,Megaphone,Search]
+const icons=[Code2,Layers,Bot,Smartphone,Share2,Megaphone,Search,Video]
 export default function Services(){useSeo('/services');const {hash}=useLocation()
 useEffect(()=>{if(hash)setTimeout(()=>document.getElementById(hash.slice(1))?.scrollIntoView({behavior:'smooth',block:'center'}),150)},[hash])
 return(<section className="mx-auto max-w-7xl px-6 pb-24 pt-40"><h1 className="font-display text-5xl font-bold md:text-7xl">WHAT WE DO</h1>

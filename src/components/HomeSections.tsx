@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'; import { Link } from 'react-router-dom'; import gsap from 'gsap'; import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { services, process, tech } from '../data/services'; import { portfolio } from '../data/portfolio'; import { team, founder } from '../data/team'; import seo from '../data/seo.json'
-import { posts, fmtDate } from '../data/blog'; import { slugify } from '../lib/utils'; import Mockup from './Mockup'; import TeamCard from './TeamCard'; import Counter from './Counter'; import Magnetic from './Magnetic'
+import { posts, fmtDate } from '../data/blog'; import { slugify } from '../lib/utils'; import Mockup from './Mockup'; import TeamRow from './TeamRow'; import Reviews from './Reviews'; import Counter from './Counter'; import Magnetic from './Magnetic'
 gsap.registerPlugin(ScrollTrigger)
 const H=({children}:{children:string})=><h2 className="rev font-display text-4xl font-bold md:text-6xl">{children}</h2>
 export default function HomeSections(){const r=useRef<HTMLDivElement>(null)
@@ -19,9 +19,10 @@ return(<div ref={r}>
 {process.map(([n,t,d])=><li key={n} className="rev"><span className="font-display text-cyan">{n}</span><h3 className="font-display text-2xl">{t}</h3><p className="text-mute">{d}</p></li>)}</ol></section>
 <section className="mx-auto max-w-7xl px-6 py-24"><div className="flex items-end justify-between"><H>WHAT WE BUILD</H><Link to="/portfolio" className="text-sm text-mute hover:text-white">All concepts →</Link></div>
 <p className="rev mt-4 text-mute">ZUNEX LAB concept projects, not client work.</p>
-<div className="mt-12 grid gap-6 md:grid-cols-3">{portfolio.slice(0,3).map(p=><Link key={p.slug} to={`/portfolio/${p.slug}`} data-cursor="VIEW CASE" className="rev group border border-white/10 bg-panel p-5 transition-colors hover:border-cyan/50"><Mockup bars={p.bars} label={p.name}/><p className="mt-5 text-xs tracking-widest text-cyan">{p.n} · CONCEPT PROJECT</p><h3 className="mt-1 font-display text-xl">{p.name}</h3><p className="text-sm text-mute">{p.cat}</p></Link>)}</div></section>
+<div className="mt-12 grid gap-6 md:grid-cols-3">{portfolio.slice(0,3).map(p=><Link key={p.slug} to={`/portfolio/${p.slug}`} data-cursor="VIEW CASE" className="rev group border border-white/10 bg-panel p-5 transition-colors hover:border-cyan/50"><Mockup viz={p.viz} bars={p.bars} label={p.name}/><p className="mt-5 text-xs tracking-widest text-cyan">{p.n} · CONCEPT PROJECT</p><h3 className="mt-1 font-display text-xl">{p.name}</h3><p className="text-sm text-mute">{p.cat}</p></Link>)}</div></section>
 <section className="mx-auto max-w-7xl px-6 py-24"><div className="flex items-end justify-between"><H>THE TEAM</H><Link to="/about" className="text-sm text-mute hover:text-white">Meet {founder.name} and the team →</Link></div>
-<div className="rev mt-12 grid gap-6 md:grid-cols-3">{team.map(m=><TeamCard key={m.slug} m={m}/>)}</div></section>
+<div className="rev mt-8"><TeamRow/></div></section>
+<Reviews/>
 <section className="mx-auto max-w-7xl px-6 py-24"><div className="flex items-end justify-between"><H>LATEST INSIGHTS</H><Link to="/blog" className="text-sm text-mute hover:text-white">All posts →</Link></div>
 <div className="mt-12 grid gap-6 md:grid-cols-3">{posts.slice(0,3).map(p=><Link key={p.slug} to={`/blog/${p.slug}`} data-cursor="READ" className="rev border border-white/10 bg-panel p-6 transition-colors hover:border-cyan/50"><p className="text-xs tracking-widest text-cyan">{p.category.toUpperCase()}</p><h3 className="mt-3 font-display text-xl leading-snug">{p.title}</h3><p className="mt-3 text-xs text-mute">{fmtDate(p.updated)} · {p.readMin} min read</p></Link>)}</div></section>
 <section className="mx-auto max-w-4xl px-6 py-24"><H>QUESTIONS</H><div className="mt-10 border-t border-white/10">{seo.faq.map(([q,a])=><details key={q} className="rev group border-b border-white/10 py-5"><summary className="cursor-pointer list-none font-display text-xl">{q}</summary><p className="mt-3 text-mute">{a}</p></details>)}</div></section>

@@ -1,2 +1,5 @@
 import { createClient } from '@supabase/supabase-js'
-export const supabase=createClient(import.meta.env.VITE_SUPABASE_URL??'',import.meta.env.VITE_SUPABASE_ANON_KEY??'')
+const url=import.meta.env.VITE_SUPABASE_URL as string|undefined,key=import.meta.env.VITE_SUPABASE_ANON_KEY as string|undefined
+export const hasSupabase=Boolean(url&&key)
+// Placeholders keep the site from crashing when env vars are missing; Contact shows a friendly error instead.
+export const supabase=createClient(url||'https://placeholder.supabase.co',key||'placeholder')

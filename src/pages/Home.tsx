@@ -2,7 +2,9 @@ import { lazy, Suspense, useEffect, useRef } from 'react'; import { Link } from 
 const HomeSections=lazy(()=>import('../components/HomeSections')),ThreeScene=lazy(()=>import('../components/ThreeScene'))
 export default function Home(){useSeo('/');const h=useRef<HTMLElement>(null)
 useEffect(()=>{if(matchMedia('(prefers-reduced-motion: reduce)').matches)return
-const c=gsap.context(()=>{gsap.from('.line',{yPercent:110,opacity:0,duration:1.1,ease:'power4.out',stagger:.12});gsap.from('.fade',{y:20,opacity:0,duration:.9,delay:.6,stagger:.1,ease:'power3.out'})},h);return()=>c.revert()},[])
+let c:gsap.Context|undefined;const run=()=>{c=gsap.context(()=>{gsap.from('.line',{yPercent:110,opacity:0,duration:1.1,ease:'power4.out',stagger:.12});gsap.from('.fade',{y:20,opacity:0,duration:.9,delay:.5,stagger:.1,ease:'power3.out'})},h)}
+if((window as unknown as {__zunexReady?:boolean}).__zunexReady)run();else window.addEventListener('zunex:ready',run,{once:true})
+return()=>{window.removeEventListener('zunex:ready',run);c?.revert()}},[])
 return(<><section ref={h} className="relative flex min-h-screen items-center overflow-hidden bg-deep px-6"><Suspense fallback={null}><ThreeScene/></Suspense>
 <div className="relative mx-auto w-full max-w-7xl"><p className="fade mb-6 text-xs tracking-[.3em] text-cyan">ZUNEX SOLUTIONS · AVAILABLE FOR SELECT PROJECTS</p>
 <h1 className="font-display text-6xl font-bold leading-[.95] md:text-8xl"><span className="block overflow-hidden"><span className="line block">WE BUILD</span></span><span className="block overflow-hidden"><span className="line block">WHAT'S NEXT.</span></span></h1>

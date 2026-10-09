@@ -8,12 +8,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with: { node-version: 20, cache: npm }
+        with: { node-version: 20 }
+      - name: Work out the site address
+        env:
+          CUSTOM_DOMAIN: ${{ vars.CUSTOM_DOMAIN }}
+          OWNER: ${{ github.repository_owner }}
+          NAME: ${{ github.event.repository.name }}
+        run: |
+          O=$(echo "$OWNER" | tr 'A-Z' 'a-z'); N=$(echo "$NAME" | tr 'A-Z' 'a-z')
+          if [ -n "$CUSTOM_DOMAIN" ]; then B=/; S="https://$CUSTOM_DOMAIN"
+          elif [ "$N" = "$O.github.io" ]; then B=/; S="https://$N"
+          else B="/$N/"; S="https://$O.github.io/$N"; fi
+          echo "VITE_BASE=$B" >> "$GITHUB_ENV"; echo "VITE_SITE_URL=$S" >> "$GITHUB_ENV"; echo "Site: $S (base $B)"
       - run: npm install
       - run: npm run build
         env:
-          VITE_SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
-          VITE_BASE: /${{ github.event.repository.name }}/
           VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
           VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
       - uses: actions/upload-pages-artifact@v3

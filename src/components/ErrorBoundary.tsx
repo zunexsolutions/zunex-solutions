@@ -1,0 +1,3 @@
+import { Component, ReactNode } from 'react'
+export default class ErrorBoundary extends Component<{children:ReactNode},{err:boolean}>{state={err:false};static getDerivedStateFromError(){return{err:true}};componentDidCatch(e:unknown){console.error(e)}
+render(){return this.state.err?<section className="flex min-h-screen flex-col items-center justify-center px-6 text-center"><h1 className="font-display text-3xl">Something went wrong.</h1><p className="mt-3 text-mute">Please reload the page.</p><button onClick={()=>location.reload()} className="mt-6 bg-white px-6 py-3 text-sm text-ink">RELOAD</button></section>:this.props.children}}

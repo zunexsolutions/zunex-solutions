@@ -1,7 +1,18 @@
-# Go live (free): GitHub Pages
-1. GitHub > New repository (e.g. `zunex-solutions`), then upload all files from this folder (keep `.github/`).
-2. Repo > Settings > Secrets and variables > Actions > New secret: add VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY (values in .env.example).
-3. Repo > Settings > Pages > Source: GitHub Actions. Push to `main` and wait for the Deploy action.
-4. Site URL: https://YOUR-USERNAME.github.io/zunex-solutions/
-5. Supabase dashboard > Authentication > Users > Add user (your admin email/password); Sign In/Providers > turn off "Allow new users to sign up".
-6. Custom domain later: buy one, set it in Pages settings, and remove the VITE_BASE line in deploy.yml (use `/`).
+# Deploy and update (GitHub Pages, free)
+
+Update the live site
+1. Copy the project files over your local `zunex-solutions` folder (replace all, include hidden `.github`).
+2. GitHub Desktop: Summary > Commit to main > Push origin.
+3. GitHub > Actions: wait for the green check (2 to 4 minutes).
+
+Add a blog post: see `content/HOW-TO-ADD-A-POST.md`.
+
+Site address
+- Automatic. The workflow reads your GitHub username and repository name.
+- Repository named `<username>.github.io` -> https://<username>.github.io/
+- Any other name -> https://<username>.github.io/<repository>/
+- Custom domain: repo Settings > Secrets and variables > Actions > Variables > add CUSTOM_DOMAIN = yourdomain.com,
+  then Settings > Pages > Custom domain.
+
+Required once: Actions secrets VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY (values in .env.example),
+Pages source = GitHub Actions, and an admin user in Supabase Auth with public sign-ups turned off.
