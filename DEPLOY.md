@@ -16,3 +16,15 @@ Site address
 
 Required once: Actions secrets VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY (values in .env.example),
 Pages source = GitHub Actions, and an admin user in Supabase Auth with public sign-ups turned off.
+
+Keep the source private (optional, free)
+Host on Cloudflare Pages instead of GitHub Pages, then make the GitHub repository private.
+Cloudflare build command: npm run build   Output directory: dist
+Environment variables: VITE_SUPABASE_URL, VITE_SUPABASE_ANON_KEY, VITE_SITE_URL (your live address), NODE_VERSION=20
+Then delete .github/workflows/deploy.yml.
+
+Edit content
+- Products: src/data/products.json (name, tagline, features, steps)
+- Client reviews: src/data/reviews.ts (replace the samples with real reviews and delete "sample:true")
+- Blog posts: content/posts (see content/HOW-TO-ADD-A-POST.md)
+- Team: src/data/team.ts

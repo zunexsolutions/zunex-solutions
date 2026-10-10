@@ -1,0 +1,255 @@
+[
+ {
+  "slug": "voxpilot",
+  "name": "VoxPilot",
+  "category": "AI Voice Agents",
+  "tagline": "A voice agent that answers every call.",
+  "summary": "AI phone agents that answer calls, qualify callers, book appointments and hand over to a person when it matters.",
+  "features": [
+   "Answers and makes calls in natural conversation, day and night",
+   "Books appointments or takes orders straight into your calendar or CRM",
+   "Languages and voice set up to suit your market",
+   "Call summaries and transcripts sent to you after every call",
+   "Smooth hand-off to a human for sensitive or complex calls",
+   "Business-hours and after-hours rules you control"
+  ],
+  "who": [
+   "Clinics and dental practices",
+   "Real estate and property consultants",
+   "Restaurants and service businesses",
+   "Support and reservation desks"
+  ],
+  "how": [
+   [
+    "Map your calls",
+    "We list the questions callers ask and what should happen next."
+   ],
+   [
+    "Set up the voice",
+    "Script, voice, languages and rules are configured for your brand."
+   ],
+   [
+    "Connect your tools",
+    "Phone line, calendar, CRM or sheet are linked."
+   ],
+   [
+    "Test with real calls",
+    "We rehearse awkward cases before going live."
+   ],
+   [
+    "Launch and tune",
+    "We review call logs and improve the agent over time."
+   ]
+  ],
+  "tech": [
+   "LLMs",
+   "Speech-to-text",
+   "Text-to-speech",
+   "Telephony",
+   "FastAPI",
+   "n8n"
+  ]
+ },
+ {
+  "slug": "opsloom",
+  "name": "OpsLoom",
+  "category": "Business Automation",
+  "tagline": "Weave your tools into one workflow.",
+  "summary": "A done-for-you automation layer that connects the apps you already use, so reports, reminders and approvals run themselves.",
+  "features": [
+   "Connects your existing apps: forms, sheets, CRM, email, chat and more",
+   "Automates approvals, follow-ups, reminders and reports",
+   "AI steps for sorting and drafting, with human approval where it matters",
+   "A simple dashboard for the numbers you check every day",
+   "Error alerts and activity logs so nothing fails silently",
+   "Hosted and monitored by our team"
+  ],
+  "who": [
+   "Agencies and consultancies",
+   "Clinics, schools and training institutes",
+   "Logistics and delivery teams",
+   "Online stores with busy back offices"
+  ],
+  "how": [
+   [
+    "Audit the busywork",
+    "We map the tasks that eat your team's time."
+   ],
+   [
+    "Design the flow",
+    "Triggers, steps and approvals are drawn out for your sign-off."
+   ],
+   [
+    "Build and connect",
+    "We build the workflows and connect your tools."
+   ],
+   [
+    "Pilot",
+    "The automation runs beside your manual process for a short trial."
+   ],
+   [
+    "Go live and monitor",
+    "We watch it, fix issues and add improvements."
+   ]
+  ],
+  "tech": [
+   "n8n",
+   "APIs",
+   "PostgreSQL",
+   "Supabase",
+   "AI APIs"
+  ]
+ },
+ {
+  "slug": "bazaario",
+  "name": "Bazaario",
+  "category": "Ecommerce App",
+  "tagline": "Your store, in your customer's pocket.",
+  "summary": "A branded Android and iOS shopping app for your business, with an admin panel to run products, orders and offers.",
+  "features": [
+   "Native-feeling Android and iOS app under your brand",
+   "Catalogue, search, wishlist, cart and checkout",
+   "Payment options set up for your market",
+   "Push notifications for offers and order updates",
+   "Order tracking for customers, order management for you",
+   "Admin panel to manage products, stock and customers"
+  ],
+  "who": [
+   "Retail and fashion brands",
+   "Grocery, bakery and food businesses",
+   "Wholesalers selling to repeat buyers",
+   "Stores that already have a website and want an app"
+  ],
+  "how": [
+   [
+    "Plan the app",
+    "Screens, catalogue and payment needs are agreed first."
+   ],
+   [
+    "Design the brand experience",
+    "Your colours, logo and layout, ready for approval."
+   ],
+   [
+    "Build and integrate",
+    "App, admin panel and your stock or order system."
+   ],
+   [
+    "Test on real devices",
+    "Android and iOS testing before store submission."
+   ],
+   [
+    "Publish and support",
+    "We help publish to the app stores and support you after launch."
+   ]
+  ],
+  "tech": [
+   "Flutter",
+   "Node.js",
+   "FastAPI",
+   "PostgreSQL",
+   "Supabase"
+  ]
+ },
+ {
+  "slug": "vitrina",
+  "name": "Vitrina",
+  "category": "Ecommerce Store",
+  "tagline": "A storefront built to sell, not just to look good.",
+  "summary": "A fast, mobile-first online store with secure checkout, easy product management and search-friendly pages.",
+  "features": [
+   "Fast, mobile-first storefront with your branding",
+   "Search-friendly product and category pages",
+   "Secure checkout through your payment gateways",
+   "Inventory, orders and discount codes in one place",
+   "WhatsApp order button for customers who prefer chat",
+   "Ready for ads and analytics tracking"
+  ],
+  "who": [
+   "New online brands",
+   "Shops moving from social media to their own store",
+   "Businesses replacing a slow or outdated store",
+   "Sellers who want to grow with Google and Meta Ads"
+  ],
+  "how": [
+   [
+    "Choose the platform",
+    "Shopify or a custom build, whichever fits your goals."
+   ],
+   [
+    "Set up the catalogue",
+    "Products, categories, shipping and payments."
+   ],
+   [
+    "Design the storefront",
+    "A clean layout that makes buying easy."
+   ],
+   [
+    "Test the full purchase",
+    "Browse, pay, confirm, deliver: every step."
+   ],
+   [
+    "Launch and grow",
+    "SEO basics, tracking and optional ad campaigns."
+   ]
+  ],
+  "tech": [
+   "Shopify",
+   "Next.js",
+   "Supabase",
+   "Tailwind CSS",
+   "Google Ads",
+   "Meta Ads"
+  ]
+ },
+ {
+  "slug": "chatsetu",
+  "name": "ChatSetu",
+  "category": "WhatsApp Automation Bot",
+  "tagline": "Reply, sell and support on WhatsApp, around the clock.",
+  "summary": "A WhatsApp bot that answers questions, captures leads and shares catalogues or order updates, with a human taking over when needed.",
+  "features": [
+   "Instant answers to common questions, any hour",
+   "Catalogue sharing and order status updates",
+   "Lead capture into a sheet or CRM",
+   "AI-assisted replies drawn from your own FAQs and documents",
+   "Hand-over to your team for anything the bot should not decide",
+   "Approved message templates for notifications and broadcasts"
+  ],
+  "who": [
+   "Businesses that get most enquiries on WhatsApp",
+   "Schools, institutes and clinics",
+   "Online stores and local shops",
+   "Sales teams that lose leads overnight"
+  ],
+  "how": [
+   [
+    "Plan the conversations",
+    "Common questions, flows and hand-over rules."
+   ],
+   [
+    "Connect WhatsApp",
+    "Set up the official WhatsApp Business Platform."
+   ],
+   [
+    "Add your knowledge",
+    "FAQs, catalogue and policies the bot can use."
+   ],
+   [
+    "Test with your team",
+    "We try tricky and rude messages first."
+   ],
+   [
+    "Launch and improve",
+    "We review chats and refine the replies."
+   ]
+  ],
+  "tech": [
+   "WhatsApp Business Platform",
+   "n8n",
+   "LLMs",
+   "Supabase",
+   "FastAPI"
+  ],
+  "note": "ChatSetu runs on the official WhatsApp Business Platform, so it follows WhatsApp's rules, including customer opt-in and approved templates for outbound messages."
+ }
+]

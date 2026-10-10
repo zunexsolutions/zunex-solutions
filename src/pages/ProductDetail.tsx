@@ -1,0 +1,15 @@
+import { Link, useParams } from 'react-router-dom'; import { products } from '../data/products'; import ProductArt, { Mark } from '../components/ProductArt'; import { useSeo } from '../lib/seo'; import NotFound from './NotFound'
+export default function ProductDetail(){const {slug}=useParams(),p=products.find(x=>x.slug===slug);useSeo(`/products/${slug}`,!p);if(!p)return <NotFound/>
+const rel=products.filter(x=>x.slug!==p.slug).slice(0,3),wa=`https://wa.me/923106370125?text=${encodeURIComponent(`Hi Zunex Solutions, I'd like a demo of ${p.name} (${p.category}).`)}`
+const B=({t,children}:{t:string;children:React.ReactNode})=><section className="border-t border-white/10 py-10"><h2 className="text-xs tracking-[.3em] text-cyan">{t}</h2><div className="mt-4">{children}</div></section>
+return(<article className="mx-auto max-w-5xl px-6 pb-24 pt-40"><Link to="/products" className="text-sm text-mute hover:text-white">← All products</Link>
+<div className="mt-8 flex items-center gap-4"><Mark slug={p.slug} className="h-12 w-12"/><p className="text-xs tracking-widest text-cyan">{p.category.toUpperCase()}</p></div>
+<h1 className="mt-4 font-display text-6xl font-bold md:text-8xl">{p.name}</h1><p className="mt-4 font-display text-2xl">{p.tagline}</p><p className="mt-4 max-w-2xl text-lg text-mute">{p.summary}</p>
+<div className="mt-8 flex flex-wrap gap-3"><Link to={`/contact?product=${p.slug}`} className="bg-white px-6 py-3 text-sm font-medium text-ink">REQUEST A DEMO →</Link><a href={wa} target="_blank" rel="noopener noreferrer" className="border border-white/20 px-6 py-3 text-sm">ASK ON WHATSAPP</a></div>
+<div className="my-14"><ProductArt slug={p.slug} name={p.name}/></div>
+<B t="WHAT IT DOES"><ul className="grid gap-3 md:grid-cols-2">{p.features.map(f=><li key={f} className="border border-white/10 bg-panel p-4 text-mute">{f}</li>)}</ul></B>
+<B t="WHO IT IS FOR"><ul className="flex flex-wrap gap-2">{p.who.map(w=><li key={w} className="border border-white/10 px-3 py-2 text-sm text-mute">{w}</li>)}</ul></B>
+<B t="HOW WE SET IT UP"><ol className="space-y-5">{p.how.map(([t,d],i)=><li key={t} className="flex gap-4"><span className="font-display text-cyan">0{i+1}</span><div><h3 className="font-display text-lg">{t}</h3><p className="text-mute">{d}</p></div></li>)}</ol></B>
+<B t="BUILT WITH"><ul className="flex flex-wrap gap-2">{p.tech.map(t=><li key={t} className="border border-white/10 px-2 py-1 text-xs text-mute">{t}</li>)}</ul></B>
+<B t="PRICING"><p className="text-mute">Every setup is different, so we give a custom quote after a short call about your needs. Request a demo and we will walk you through it first.</p>{p.note&&<p className="mt-4 border-l-2 border-cyan pl-3 text-sm text-mute">{p.note}</p>}</B>
+<h2 className="mt-12 font-display text-2xl">More products</h2><ul className="mt-4 grid gap-4 md:grid-cols-3">{rel.map(r=><li key={r.slug}><Link to={`/products/${r.slug}`} className="block border border-white/10 bg-panel p-4 transition-colors hover:border-cyan/50"><p className="font-display text-lg">{r.name}</p><p className="text-sm text-mute">{r.category}</p></Link></li>)}</ul></article>)}

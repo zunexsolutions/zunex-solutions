@@ -13,7 +13,7 @@ gsap.from('.f-sign',{scaleX:0,transformOrigin:'left',duration:1.1,ease:'power3.o
 gsap.to('.f-badge',{y:-8,duration:2.2,yoyo:true,repeat:-1,ease:'sine.inOut'})},r);const t=setTimeout(()=>ScrollTrigger.refresh(),500);return()=>{clearTimeout(t);c.revert()}},[])
 return(<section ref={r} className="mt-24 grid gap-14 md:grid-cols-[380px_1fr]" aria-label="Message from the founder">
 <div className="relative"><span aria-hidden className="f-frame absolute -bottom-5 -left-5 h-full w-full border border-cyan/40"/>
-<div className="f-img relative aspect-[3/4] overflow-hidden"><img src={asset(founder.img)} alt={founder.alt} width={800} height={1200} className="f-photo h-full w-full object-cover"/></div>
+<div className="f-img relative aspect-[3/4] overflow-hidden bg-gradient-to-b from-[#101830] to-deep"><img src={asset(founder.img)} alt={founder.alt} width={408} height={514} className="f-photo h-full w-full object-contain object-bottom"/></div>
 <p className="f-badge absolute -right-3 bottom-8 bg-cyan px-3 py-2 text-[10px] font-medium tracking-[.25em] text-ink">FOUNDER & CEO</p></div>
 <div className="f-msg"><p className="text-xs tracking-[.3em] text-cyan">FOUNDER'S MESSAGE</p>
 <span aria-hidden className="f-quote mt-4 block font-display text-8xl leading-none text-cyan/30">“</span>

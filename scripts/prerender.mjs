@@ -1,11 +1,11 @@
 // Post-build SEO step: writes a real HTML file per route (title, meta, canonical, JSON-LD, crawlable content), sitemap.xml and robots.txt.
 import fs from 'fs'
 const seo=JSON.parse(fs.readFileSync('src/data/seo.json','utf8'))
-const blog=JSON.parse(fs.readFileSync('src/data/blog.json','utf8'))
+const blog=JSON.parse(fs.readFileSync('src/data/blog.json','utf8')),products=JSON.parse(fs.readFileSync('src/data/products.json','utf8'))
 const SITE=(process.env.VITE_SITE_URL||seo.site).replace(/\/$/,'')
 const tpl=fs.readFileSync('dist/index.html','utf8').replaceAll('__SITE__',SITE)
 const esc=s=>s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;')
-const nav=['/','/services','/about','/portfolio','/blog','/contact'].map(r=>`<a href="${SITE}${r==='/'?'/':r+'/'}">${r==='/'?'Home':r.slice(1)}</a>`).join(' ')
+const nav=['/','/services','/about','/products','/blog','/contact'].map(r=>`<a href="${SITE}${r==='/'?'/':r+'/'}">${r==='/'?'Home':r.slice(1)}</a>`).join(' ')
 const ld=o=>`<script type="application/ld+json">${JSON.stringify(o)}</script>`
 function build(route,e,noindex=false){
  const url=SITE+(route==='/'?'/':route+'/'); let h=tpl
@@ -20,8 +20,10 @@ function build(route,e,noindex=false){
  else if(!noindex){const parts=route.split('/').filter(Boolean);extra+=ld({'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:SITE+'/'},...parts.map((p,i)=>({'@type':'ListItem',position:i+2,name:seo.pages['/'+parts.slice(0,i+1).join('/')]?.h1||p,item:SITE+'/'+parts.slice(0,i+1).join('/')+'/'}))]})}
  const post=blog.find(b=>'/blog/'+b.slug===route)
  if(post) extra+=ld({'@context':'https://schema.org','@type':'Article',headline:post.title,description:post.description,datePublished:post.date,dateModified:post.updated,keywords:post.keyword,articleSection:post.category,author:{'@type':'Organization',name:'Zunex Solutions',url:SITE+'/'},publisher:{'@type':'Organization',name:'Zunex Solutions',logo:{'@type':'ImageObject',url:SITE+'/og.png'}},mainEntityOfPage:url,image:SITE+'/og.png'})
+ const prod=products.find(x=>'/products/'+x.slug===route)
+ if(prod) extra+=ld({'@context':'https://schema.org','@type':'SoftwareApplication',name:prod.name,applicationCategory:'BusinessApplication',description:prod.summary,provider:{'@type':'Organization',name:'Zunex Solutions',url:SITE+'/'},url:url})
  h=h.replace('</head>',extra+'</head>')
- const body=post?`<p>${esc(post.intro)}</p>`+post.sections.map(x=>`<h2>${esc(x.h)}</h2>`+x.p.map(t=>`<p>${esc(t)}</p>`).join('')+(x.l?`<ul>${x.l.map(i=>`<li>${esc(i)}</li>`).join('')}</ul>`:'')).join(''):''
+ const body=prod?`<p>${esc(prod.tagline)}</p><ul>${prod.features.map(i=>`<li>${esc(i)}</li>`).join('')}</ul>`:post?`<p>${esc(post.intro)}</p>`+post.sections.map(x=>`<h2>${esc(x.h)}</h2>`+x.p.map(t=>`<p>${esc(t)}</p>`).join('')+(x.l?`<ul>${x.l.map(i=>`<li>${esc(i)}</li>`).join('')}</ul>`:'')).join(''):''
  return h.replace('<div id="root"></div>',`<div id="root"><main><h1>${esc(e.h1||e.title)}</h1><p>${esc(e.description)}</p>${body}<nav aria-label="Main">${nav}</nav></main></div>`)
 }
 const urls=[]

@@ -16,50 +16,50 @@
    "title": "About Zunex Solutions | Our Founder, Team & Approach",
    "description": "Meet the Zunex Solutions team: founder Zubair Ali, developers, an AI engineer and a marketing designer building digital products that scale."
   },
-  "/portfolio": {
-   "h1": "Selected work from Zunex Lab",
-   "title": "Portfolio | Concept Products by Zunex Lab | Zunex Solutions",
-   "description": "Explore six concept products from Zunex Lab: AI SaaS, fintech, eCommerce, education, healthcare and automation interfaces."
-  },
   "/contact": {
    "h1": "Let's build something great",
    "title": "Contact Zunex Solutions | Start Your Project",
    "description": "Tell us about your project. Contact Zunex Solutions by form, call or WhatsApp to discuss web, SaaS, AI and app development."
   },
-  "/portfolio/nexora": {
-   "h1": "Nexora: AI SaaS Platform (concept project)",
-   "title": "Nexora | AI SaaS Platform Concept | Zunex Lab",
-   "description": "Nexora is a Zunex Lab concept project: a ai saas platform interface with challenge, solution, technology and key features."
-  },
-  "/portfolio/finora": {
-   "h1": "Finora: FinTech Dashboard (concept project)",
-   "title": "Finora | FinTech Dashboard Concept | Zunex Lab",
-   "description": "Finora is a Zunex Lab concept project: a fintech dashboard interface with challenge, solution, technology and key features."
-  },
-  "/portfolio/shopnova": {
-   "h1": "ShopNova: eCommerce Platform (concept project)",
-   "title": "ShopNova | eCommerce Platform Concept | Zunex Lab",
-   "description": "ShopNova is a Zunex Lab concept project: a ecommerce platform interface with challenge, solution, technology and key features."
-  },
-  "/portfolio/edulink": {
-   "h1": "EduLink: Education Management SaaS (concept project)",
-   "title": "EduLink | Education Management SaaS Concept | Zunex Lab",
-   "description": "EduLink is a Zunex Lab concept project: a education management saas interface with challenge, solution, technology and key features."
-  },
-  "/portfolio/medixa": {
-   "h1": "Medixa: Healthcare Digital Platform (concept project)",
-   "title": "Medixa | Healthcare Digital Platform Concept | Zunex Lab",
-   "description": "Medixa is a Zunex Lab concept project: a healthcare digital platform interface with challenge, solution, technology and key features."
-  },
-  "/portfolio/flowops": {
-   "h1": "FlowOps: Business Automation Platform (concept project)",
-   "title": "FlowOps | Business Automation Platform Concept | Zunex Lab",
-   "description": "FlowOps is a Zunex Lab concept project: a business automation platform interface with challenge, solution, technology and key features."
-  },
   "/blog": {
    "h1": "Tech news, guides and updates",
    "title": "Blog | IT News, Web, AI & SEO Updates | Zunex Solutions",
    "description": "Researched IT news and practical guides on AI, web development, security, SEO and cloud, updated October 2026, from the Zunex Solutions team."
+  },
+  "/products": {
+   "h1": "Our products: AI voice agents, automation, ecommerce and WhatsApp bots",
+   "title": "Our Products | AI, Automation & Ecommerce | Zunex Solutions",
+   "description": "Ready-to-launch products from Zunex Solutions: VoxPilot, OpsLoom, Bazaario, Vitrina and ChatSetu, configured for your business."
+  },
+  "/products/voxpilot": {
+   "h1": "VoxPilot: AI Voice Agents",
+   "title": "VoxPilot | AI Voice Agents | Zunex Solutions",
+   "description": "AI phone agents that answer calls, qualify callers, book appointments and hand over to a person when it matters."
+  },
+  "/products/opsloom": {
+   "h1": "OpsLoom: Business Automation",
+   "title": "OpsLoom | Business Automation | Zunex Solutions",
+   "description": "A done-for-you automation layer that connects the apps you already use, so reports, reminders and approvals run themselves."
+  },
+  "/products/bazaario": {
+   "h1": "Bazaario: Ecommerce App",
+   "title": "Bazaario | Ecommerce App | Zunex Solutions",
+   "description": "A branded Android and iOS shopping app for your business, with an admin panel to run products, orders and offers."
+  },
+  "/products/vitrina": {
+   "h1": "Vitrina: Ecommerce Store",
+   "title": "Vitrina | Ecommerce Store | Zunex Solutions",
+   "description": "A fast, mobile-first online store with secure checkout, easy product management and search-friendly pages."
+  },
+  "/products/chatsetu": {
+   "h1": "ChatSetu: WhatsApp Automation Bot",
+   "title": "ChatSetu | WhatsApp Automation Bot | Zunex Solutions",
+   "description": "A WhatsApp bot that answers questions, captures leads and shares catalogues or order updates, with a human taking over when needed."
+  },
+  "/privacy": {
+   "h1": "Privacy Policy",
+   "title": "Privacy Policy | Zunex Solutions",
+   "description": "How Zunex Solutions collects, uses and protects the information you send through our contact form, phone and WhatsApp."
   },
   "/blog/ai-agents-for-business-2026": {
    "h1": "AI Agents in 2026: What Businesses Are Actually Doing With Them",
@@ -197,6 +197,10 @@
   [
    "Do you work with clients remotely?",
    "Yes. Our team works remotely with clients, and we are based in Sahiwal, Punjab, Pakistan."
+  ],
+  [
+   "Do you sell ready-made products?",
+   "Yes. VoxPilot (AI voice agents), OpsLoom (business automation), Bazaario (ecommerce app), Vitrina (ecommerce store) and ChatSetu (WhatsApp automation bot) are configured and supported by our team. Pricing is a custom quote."
   ]
  ]
 }

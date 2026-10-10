@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'; import { NavLink, Link, useLocation } from 'react-router-dom'; import gsap from 'gsap'
-const links=[['/','Home'],['/services','Services'],['/about','About'],['/portfolio','Portfolio'],['/blog','Blog'],['/contact','Contact']]
+const links=[['/','Home'],['/services','Services'],['/about','About'],['/products','Products'],['/blog','Blog'],['/contact','Contact']]
 export default function Navbar(){const [open,setOpen]=useState(false),[solid,setSolid]=useState(false),m=useRef<HTMLDivElement>(null),loc=useLocation()
 useEffect(()=>{const f=()=>setSolid(scrollY>40);f();addEventListener('scroll',f,{passive:true});return()=>removeEventListener('scroll',f)},[])
 useEffect(()=>{setOpen(false);scrollTo(0,0)},[loc.pathname])
